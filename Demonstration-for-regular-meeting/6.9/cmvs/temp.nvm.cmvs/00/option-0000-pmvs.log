@@ -1,0 +1,84 @@
+
+pmvs2
+D:\2Work\RA\Automated 3D Modeling Project\demonstration for regular meeting\6.9\temp.nvm.cmvs\00\
+option-0000
+--------------------------------------------------
+--- Summary of specified options ---
+# of timages: 6 (enumeration)
+# of oimages: 0 (enumeration)
+level: 1  csize: 2
+threshold: 0.7  wsize: 7
+minImageNum: 3  CPU: 8
+useVisData: 1  sequence: -1
+--------------------------------------------------
+Reading images: ******
+42 6869109 Harris running ... 136  183 Harris running ...Harris running ...Harris running ...Harris running ...Harris running ...77 harris done harris done
+
+DoG running...6 harris done
+DoG running...DoG running...7 harris done
+DoG running...8 harris done
+13 harris done
+20 dog done
+22 dog done
+DoG running...24 dog done
+24 dog done
+DoG running...24 dog done
+24 dog done
+done
+adding seeds 
+(1,5)(0,5)(4,9)(3,7)(2,5)(5,6)done
+---- Initial: 0 secs ----
+Total pass fail0 fail1 refinepatch: 217 53 150 14 67
+Total pass fail0 fail1 refinepatch: 100 24.424 69.1244 6.45161 30.8756
+Expanding patches...
+---- EXPANSION: 0 secs ----
+Total pass fail0 fail1 refinepatch: 737 420 275 42 462
+Total pass fail0 fail1 refinepatch: 100 56.9878 37.3134 5.69878 62.6866
+FilterOutside
+mainbody: 
+Gain (ave/var): 0.909832 0.401397
+457 -> 456 (99.7812%)	0 secs
+Filter Exact: ******
+456 -> 403 (88.3772%)	0 secs
+FilterNeighbor:	403 -> 293 (72.7047%)	0 secs
+FilterGroups:	20
+293 -> 244 (83.2765%)	0 secs
+STATUS: 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 
+Expanding patches...
+---- EXPANSION: 0 secs ----
+Total pass fail0 fail1 refinepatch: 320 112 150 58 170
+Total pass fail0 fail1 refinepatch: 100 35 46.875 18.125 53.125
+FilterOutside
+mainbody: 
+Gain (ave/var): 1.13833 0.395946
+356 -> 356 (100%)	0 secs
+Filter Exact: ******
+356 -> 329 (92.4157%)	0 secs
+FilterNeighbor:	329 -> 305 (92.7052%)	0 secs
+FilterGroups:	20
+305 -> 274 (89.8361%)	0 secs
+STATUS: 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 
+Expanding patches...
+---- EXPANSION: 0 secs ----
+Total pass fail0 fail1 refinepatch: 286 104 113 69 173
+Total pass fail0 fail1 refinepatch: 100 36.3636 39.5105 24.1259 60.4895
+FilterOutside
+mainbody: 
+Gain (ave/var): 1.29127 0.460729
+378 -> 377 (99.7355%)	0 secs
+Filter Exact: ******
+377 -> 361 (95.756%)	0 secs
+FilterNeighbor:	361 -> 334 (92.5208%)	0 secs
+FilterGroups:	20
+334 -> 302 (90.4192%)	0 secs
+STATUS: 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 
+---- Total: 0 secs ----
