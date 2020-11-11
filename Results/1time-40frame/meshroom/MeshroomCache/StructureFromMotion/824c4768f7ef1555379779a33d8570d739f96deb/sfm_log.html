@@ -1,0 +1,148 @@
+<html><head>
+<link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+<link rel="stylesheet" type="text/css" href="http://imagine.enpc.fr/~moulonp/style.css" /><script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.93/jsxgraphcore.js"></script>
+<title>[log] Sequential SfM reconstruction</title>
+</head>
+<h1>[log] Sequential SfM reconstruction</h1>
+<hr>Dataset info:Views count: 51<br><h3>Essential Matrix.</h3>
+
+<b>Robust Essential matrix:</b><br>-> View I:<br>id: 1863203546<br>image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-2.jpg<br>-> View J:<br>id: 1955067201<br>image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-0.jpg<br><br>- Threshold: 13.8869<br>- Resection status: OK<br>- # points used for robust Essential matrix estimation: 112<br>- # points validated by robust estimation: 112<br>- % points validated: 1<br><h3>Initial triangulation - Residual of the robust estimation.<br>Thresholded at: 13.8869</h3>
+<h3>Histogram of residuals</h3>
+
+<div id="InitialPairTriangulationKeptInfo" class="jxgbox" style="width:600px; height:300px;"></div>
+<script type="text/javascript">
+var board = JXG.JSXGraph.initBoard('InitialPairTriangulationKeptInfo', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});
+board.suspendUpdate();
+var data0= [0.00000,0.11111,0.22222,0.33333,0.44444,0.55556,0.66667,0.77778,0.88889,1.00000,];
+var data1= [0.00000,0.00000,0.00000,0.00000,0.00000,0.00000,0.00000,0.00000,0.00000,0.00000,];
+board.createElement('chart', [ data0,data1], {chartStyle:'line,point',labels:[ data0,data1]});
+var p2 = board.create('point',[13.88691,0.00000], {fixed:true});
+var p3 = board.create('point',[13.88691,0.00000], {fixed:true});
+var li = board.create('line',[p2,p3], {strokeColor:'00ff00',strokeWidth:2});
+board.unsuspendUpdate();
+board.setBoundingBox([-0.20000,0.00000,1.20000,0.00000]);
+</script>
+<hr><h4>Robust resection of view 949647164: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-1.jpg<br>- Threshold (error max): 3.0767<br>- Resection status: OK<br>- # points used for Resection: 93<br>- # points validated by robust estimation: 93<br>- % points validated: 1<br><h4>Robust resection of view 741873699: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-3.jpg<br>- Threshold (error max): 17.2404<br>- Resection status: OK<br>- # points used for Resection: 140<br>- # points validated by robust estimation: 129<br>- % points validated: 0.921429<br><h4>Robust resection of view 4006058: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-4.jpg<br>- Threshold (error max): 7.22991<br>- Resection status: OK<br>- # points used for Resection: 118<br>- # points validated by robust estimation: 78<br>- % points validated: 0.661017<br><h4>Robust resection of view 1292321729: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-6.jpg<br>- Threshold (error max): 33.9009<br>- Resection status: OK<br>- # points used for Resection: 126<br>- # points validated by robust estimation: 125<br>- % points validated: 0.992063<br><h4>Robust resection of view 1199642573: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-5.jpg<br>- Threshold (error max): 32.8013<br>- Resection status: OK<br>- # points used for Resection: 210<br>- # points validated by robust estimation: 203<br>- % points validated: 0.966667<br><h4>Robust resection of view 1597138438: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-7.jpg<br>- Threshold (error max): 41.041<br>- Resection status: OK<br>- # points used for Resection: 165<br>- # points validated by robust estimation: 162<br>- % points validated: 0.981818<br><h4>Robust resection of view 113520855: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-8.jpg<br>- Threshold (error max): 37.0831<br>- Resection status: OK<br>- # points used for Resection: 165<br>- # points validated by robust estimation: 154<br>- % points validated: 0.933333<br><h4>Robust resection of view 1704613598: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-9.jpg<br>- Threshold (error max): 52.2217<br>- Resection status: OK<br>- # points used for Resection: 204<br>- # points validated by robust estimation: 201<br>- % points validated: 0.985294<br><h4>Robust resection of view 1034156287: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-10.jpg<br>- Threshold (error max): 32.0744<br>- Resection status: OK<br>- # points used for Resection: 140<br>- # points validated by robust estimation: 124<br>- % points validated: 0.885714<br><h4>Robust resection of view 1488872754: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-11.jpg<br>- Threshold (error max): 57.06<br>- Resection status: OK<br>- # points used for Resection: 169<br>- # points validated by robust estimation: 161<br>- % points validated: 0.952663<br><h4>Robust resection of view 1009773410: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-12.jpg<br>- Threshold (error max): 30.6961<br>- Resection status: OK<br>- # points used for Resection: 150<br>- # points validated by robust estimation: 126<br>- % points validated: 0.84<br><h4>Robust resection of view 1838167405: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-13.jpg<br>- Threshold (error max): 51.5187<br>- Resection status: OK<br>- # points used for Resection: 190<br>- # points validated by robust estimation: 178<br>- % points validated: 0.936842<br><h4>Robust resection of view 1893867912: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-14.jpg<br>- Threshold (error max): 42.5099<br>- Resection status: OK<br>- # points used for Resection: 159<br>- # points validated by robust estimation: 141<br>- % points validated: 0.886792<br><h4>Robust resection of view 590445685: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-15.jpg<br>- Threshold (error max): 36.0894<br>- Resection status: OK<br>- # points used for Resection: 167<br>- # points validated by robust estimation: 136<br>- % points validated: 0.814371<br><h4>Robust resection of view 1140932673: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-16.jpg<br>- Threshold (error max): 33.3436<br>- Resection status: OK<br>- # points used for Resection: 163<br>- # points validated by robust estimation: 123<br>- % points validated: 0.754601<br><h4>Robust resection of view 865425758: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-17.jpg<br>- Threshold (error max): 34.5531<br>- Resection status: OK<br>- # points used for Resection: 180<br>- # points validated by robust estimation: 130<br>- % points validated: 0.722222<br><h4>Robust resection of view 2055436659: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-18.jpg<br>- Threshold (error max): 99.3691<br>- Resection status: OK<br>- # points used for Resection: 134<br>- # points validated by robust estimation: 133<br>- % points validated: 0.992537<br><h4>Robust resection of view 1513348680: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-19.jpg<br>- Threshold (error max): 87.6395<br>- Resection status: OK<br>- # points used for Resection: 142<br>- # points validated by robust estimation: 137<br>- % points validated: 0.964789<br><h4>Robust resection of view 1048071823: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-20.jpg<br>- Threshold (error max): 36.0295<br>- Resection status: OK<br>- # points used for Resection: 148<br>- # points validated by robust estimation: 102<br>- % points validated: 0.689189<br><h4>Robust resection of view 395914196: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-21.jpg<br>- Threshold (error max): 36.2699<br>- Resection status: OK<br>- # points used for Resection: 145<br>- # points validated by robust estimation: 108<br>- % points validated: 0.744828<br><h4>Robust resection of view 263469142: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-22.jpg<br>- Threshold (error max): 27.9393<br>- Resection status: OK<br>- # points used for Resection: 122<br>- # points validated by robust estimation: 93<br>- % points validated: 0.762295<br><h4>Robust resection of view 503898829: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-23.jpg<br>- Threshold (error max): 28.3583<br>- Resection status: OK<br>- # points used for Resection: 134<br>- # points validated by robust estimation: 108<br>- % points validated: 0.80597<br><h4>Robust resection of view 1386020826: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-24.jpg<br>- Threshold (error max): 46.4733<br>- Resection status: OK<br>- # points used for Resection: 129<br>- # points validated by robust estimation: 125<br>- % points validated: 0.968992<br><h4>Robust resection of view 1768137885: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-25.jpg<br>- Threshold (error max): 45.686<br>- Resection status: OK<br>- # points used for Resection: 158<br>- # points validated by robust estimation: 146<br>- % points validated: 0.924051<br><h4>Robust resection of view 1004938545: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-26.jpg<br>- Threshold (error max): 3.60306<br>- Resection status: OK<br>- # points used for Resection: 155<br>- # points validated by robust estimation: 149<br>- % points validated: 0.96129<br><h4>Robust resection of view 1375514710: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-27.jpg<br>- Threshold (error max): 63.1711<br>- Resection status: OK<br>- # points used for Resection: 173<br>- # points validated by robust estimation: 163<br>- % points validated: 0.942197<br><h4>Robust resection of view 710202055: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-28.jpg<br>- Threshold (error max): 74.1518<br>- Resection status: OK<br>- # points used for Resection: 161<br>- # points validated by robust estimation: 159<br>- % points validated: 0.987578<br><h4>Robust resection of view 1386952078: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-29.jpg<br>- Threshold (error max): 83.5901<br>- Resection status: OK<br>- # points used for Resection: 204<br>- # points validated by robust estimation: 204<br>- % points validated: 1<br><h4>Robust resection of view 1757274528: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-32.jpg<br>- Threshold (error max): 79.1978<br>- Resection status: OK<br>- # points used for Resection: 141<br>- # points validated by robust estimation: 141<br>- % points validated: 1<br><h4>Robust resection of view 1894999866: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-31.jpg<br>- Threshold (error max): 4.32716<br>- Resection status: OK<br>- # points used for Resection: 153<br>- # points validated by robust estimation: 144<br>- % points validated: 0.941176<br><h4>Robust resection of view 1897946761: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-30.jpg<br>- Threshold (error max): 92.1428<br>- Resection status: OK<br>- # points used for Resection: 189<br>- # points validated by robust estimation: 188<br>- % points validated: 0.994709<br><h4>Robust resection of view 1676500074: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-34.jpg<br>- Threshold (error max): 81.8612<br>- Resection status: OK<br>- # points used for Resection: 186<br>- # points validated by robust estimation: 173<br>- % points validated: 0.930108<br><h4>Robust resection of view 1336079149: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-33.jpg<br>- Threshold (error max): 86.906<br>- Resection status: OK<br>- # points used for Resection: 236<br>- # points validated by robust estimation: 221<br>- % points validated: 0.936441<br><h4>Robust resection of view 672191495: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-36.jpg<br>- Threshold (error max): 107.489<br>- Resection status: OK<br>- # points used for Resection: 175<br>- # points validated by robust estimation: 173<br>- % points validated: 0.988571<br><h4>Robust resection of view 1772891979: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-35.jpg<br>- Threshold (error max): 3.91999<br>- Resection status: OK<br>- # points used for Resection: 215<br>- # points validated by robust estimation: 207<br>- % points validated: 0.962791<br><h4>Robust resection of view 704993788: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-39.jpg<br>- Threshold (error max): 68.5628<br>- Resection status: OK<br>- # points used for Resection: 170<br>- # points validated by robust estimation: 151<br>- % points validated: 0.888235<br><h4>Robust resection of view 587410873: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-38.jpg<br>- Threshold (error max): 3.74594<br>- Resection status: OK<br>- # points used for Resection: 187<br>- # points validated by robust estimation: 171<br>- % points validated: 0.914438<br><h4>Robust resection of view 252164762: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-37.jpg<br>- Threshold (error max): 94.905<br>- Resection status: OK<br>- # points used for Resection: 263<br>- # points validated by robust estimation: 252<br>- % points validated: 0.958175<br><h4>Robust resection of view 1547453566: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-41.jpg<br>- Threshold (error max): 103.372<br>- Resection status: OK<br>- # points used for Resection: 220<br>- # points validated by robust estimation: 220<br>- % points validated: 1<br><h4>Robust resection of view 1437920077: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-40.jpg<br>- Threshold (error max): 101.689<br>- Resection status: OK<br>- # points used for Resection: 242<br>- # points validated by robust estimation: 237<br>- % points validated: 0.979339<br><h4>Robust resection of view 56196414: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-44.jpg<br>- Threshold (error max): 94.3684<br>- Resection status: OK<br>- # points used for Resection: 207<br>- # points validated by robust estimation: 189<br>- % points validated: 0.913043<br><h4>Robust resection of view 263598239: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-43.jpg<br>- Threshold (error max): 4.26245<br>- Resection status: OK<br>- # points used for Resection: 247<br>- # points validated by robust estimation: 228<br>- % points validated: 0.923077<br><h4>Robust resection of view 550651474: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-42.jpg<br>- Threshold (error max): 90.3413<br>- Resection status: OK<br>- # points used for Resection: 281<br>- # points validated by robust estimation: 255<br>- % points validated: 0.907473<br><h4>Robust resection of view 1486227816: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-47.jpg<br>- Threshold (error max): 4.22703<br>- Resection status: OK<br>- # points used for Resection: 292<br>- # points validated by robust estimation: 82<br>- % points validated: 0.280822<br><h4>Robust resection of view 218971413: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-46.jpg<br>- Threshold (error max): 3.91735<br>- Resection status: OK<br>- # points used for Resection: 320<br>- # points validated by robust estimation: 306<br>- % points validated: 0.95625<br><h4>Robust resection of view 1302487967: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-45.jpg<br>- Threshold (error max): 4.24598<br>- Resection status: OK<br>- # points used for Resection: 401<br>- # points validated by robust estimation: 105<br>- % points validated: 0.261845<br><h4>Robust resection of view 1403141592: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-49.jpg<br>- Threshold (error max): 4.01743<br>- Resection status: OK<br>- # points used for Resection: 315<br>- # points validated by robust estimation: 92<br>- % points validated: 0.292064<br><h4>Robust resection of view 26080133: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-48.jpg<br>- Threshold (error max): 110.178<br>- Resection status: OK<br>- # points used for Resection: 357<br>- # points validated by robust estimation: 331<br>- % points validated: 0.927171<br><h4>Robust resection of view 1442672628: <br></h4>
+
+- Image path: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-50.jpg<br>- Threshold (error max): 5.18495<br>- Resection status: OK<br>- # points used for Resection: 312<br>- # points validated by robust estimation: 106<br>- % points validated: 0.339744<br><hr><h3>Structure from Motion process finished.</h3>
+Structure from Motion statistics:<br>- # input images: 51<br>- # camera calibrated: 51<br>- # poses: 51
+<br>- # landmarks: 3157<br>- elapsed time: 10.839<br>- residual RMSE: 0.642536<h2>Histogram of reprojection-residuals</h2>
+
+<div id="3DtoImageResiduals" class="jxgbox" style="width:600px; height:300px;"></div>
+<script type="text/javascript">
+var board = JXG.JSXGraph.initBoard('3DtoImageResiduals', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});
+board.suspendUpdate();
+var data0= [0.00000,0.57143,1.14286,1.71429,2.28571,2.85714,3.42857,4.00000,];
+var data1= [32113.00000,9077.00000,2672.00000,993.00000,469.00000,190.00000,103.00000,43.00000,];
+board.createElement('chart', [ data0,data1], {chartStyle:'line,point',labels:[ data0,data1]});
+board.unsuspendUpdate();
+board.setBoundingBox([-0.80000,38527.00000,4.80000,-6371.00000]);
+</script>
+
+<div id="3DtoTracksSize" class="jxgbox" style="width:600px; height:300px;"></div>
+<script type="text/javascript">
+var board = JXG.JSXGraph.initBoard('3DtoTracksSize', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});
+board.suspendUpdate();
+var data0= [2.00000,3.02439,4.04878,5.07317,6.09756,7.12195,8.14634,9.17073,10.19512,11.21951,12.24390,13.26829,14.29268,15.31707,16.34146,17.36585,18.39024,19.41463,20.43902,21.46341,22.48780,23.51220,24.53659,25.56098,26.58537,27.60976,28.63415,29.65854,30.68293,31.70732,32.73171,33.75610,34.78049,35.80488,36.82927,37.85366,38.87805,39.90244,40.92683,41.95122,42.97561,44.00000,];
+var data1= [234.00000,281.00000,381.00000,399.00000,383.00000,309.00000,304.00000,190.00000,157.00000,108.00000,77.00000,66.00000,46.00000,45.00000,38.00000,33.00000,32.00000,9.00000,10.00000,11.00000,5.00000,7.00000,2.00000,8.00000,5.00000,1.00000,4.00000,2.00000,2.00000,1.00000,1.00000,1.00000,2.00000,0.00000,0.00000,0.00000,0.00000,2.00000,0.00000,0.00000,0.00000,1.00000,];
+board.createElement('chart', [ data0,data1], {chartStyle:'line,point',labels:[ data0,data1]});
+board.unsuspendUpdate();
+board.setBoundingBox([-6.40000,478.80000,52.40000,-79.80000]);
+</script>
+</html>

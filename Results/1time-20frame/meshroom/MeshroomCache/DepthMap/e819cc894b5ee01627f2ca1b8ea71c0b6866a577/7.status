@@ -1,0 +1,18 @@
+{
+    "status": "SUCCESS",
+    "execMode": "LOCAL",
+    "nodeName": "DepthMap_1",
+    "nodeType": "DepthMap",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_depthMapEstimation  --input \"D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-20frame/meshroom/MeshroomCache/StructureFromMotion/250fee2381dcb52b1c6c19f312a235c95e36881b/sfm.abc\" --imagesFolder \"D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-20frame/meshroom/MeshroomCache/PrepareDenseScene/1dddca89113158d92a0723841131f8f481bae0ce\" --downscale 2 --minViewAngle 2.0 --maxViewAngle 70.0 --sgmMaxTCams 10 --sgmWSH 4 --sgmGammaC 5.5 --sgmGammaP 8.0 --refineMaxTCams 6 --refineNSamplesHalf 150 --refineNDepthsToRefine 31 --refineNiters 100 --refineWSH 3 --refineSigma 15 --refineGammaC 15.5 --refineGammaP 8.0 --refineUseTcOrRcPixSize False --exportIntermediateResults False --nbGPUs 0 --verboseLevel info --output \"D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-20frame/meshroom/MeshroomCache/DepthMap/e819cc894b5ee01627f2ca1b8ea71c0b6866a577\" --rangeStart 21 --rangeSize 3",
+    "env": null,
+    "startDateTime": "2020-07-28 01:31:02.011607",
+    "endDateTime": "2020-07-28 01:31:06.173629",
+    "elapsedTime": 4.1620213985443115,
+    "hostname": "IN-ENGR-KYUKAN1",
+    "sessionUid": "3fe73bf0-d093-11ea-b473-c8f750fb5923",
+    "returnCode": 0,
+    "elapsedTimeStr": "0:00:04.162021"
+}

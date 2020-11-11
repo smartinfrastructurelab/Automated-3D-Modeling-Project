@@ -1,0 +1,18 @@
+{
+    "status": "SUCCESS",
+    "execMode": "LOCAL",
+    "nodeName": "ConvertSfMFormat_1",
+    "nodeType": "ConvertSfMFormat",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_convertSfMFormat  --input \"D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-60frame/meshroom/MeshroomCache/Meshing/77dcf251d560531d3a8059065c988ac87f0a5966/densePointCloud.abc\" --describerTypes sift --views True --intrinsics True --extrinsics True --structure True --observations True --verboseLevel info --output \"D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-60frame/meshroom/MeshroomCache/ConvertSfMFormat/d8240798975ab8bf52cf8c23ddc36569bd26117b/sfm.ply\" ",
+    "env": null,
+    "startDateTime": "2020-07-28 02:53:21.661405",
+    "endDateTime": "2020-07-28 02:53:21.994408",
+    "elapsedTime": 0.33300280570983887,
+    "hostname": "IN-ENGR-KYUKAN1",
+    "sessionUid": "e1d7194a-d09b-11ea-9b7c-c8f750fb5923",
+    "returnCode": 0,
+    "elapsedTimeStr": "0:00:00.333003"
+}

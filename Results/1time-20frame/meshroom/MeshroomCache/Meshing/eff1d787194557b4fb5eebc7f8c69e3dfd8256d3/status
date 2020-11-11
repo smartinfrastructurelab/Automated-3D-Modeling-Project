@@ -1,0 +1,18 @@
+{
+    "status": "SUCCESS",
+    "execMode": "LOCAL",
+    "nodeName": "Meshing_1",
+    "nodeType": "Meshing",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_meshing  --input \"D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-20frame/meshroom/MeshroomCache/StructureFromMotion/250fee2381dcb52b1c6c19f312a235c95e36881b/sfm.abc\" --depthMapsFolder \"D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-20frame/meshroom/MeshroomCache/DepthMap/e819cc894b5ee01627f2ca1b8ea71c0b6866a577\" --depthMapsFilterFolder \"D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-20frame/meshroom/MeshroomCache/DepthMapFilter/da4c6942a20b182476430a5fb6924afa64a26570\" --estimateSpaceFromSfM True --estimateSpaceMinObservations 3 --estimateSpaceMinObservationAngle 10 --maxInputPoints 50000000 --maxPoints 5000000 --maxPointsPerVoxel 1000000 --minStep 2 --partitioning singleBlock --repartition multiResolution --angleFactor 15.0 --simFactor 15.0 --pixSizeMarginInitCoef 2.0 --pixSizeMarginFinalCoef 4.0 --voteMarginFactor 4.0 --contributeMarginFactor 2.0 --simGaussianSizeInit 10.0 --simGaussianSize 10.0 --minAngleThreshold 1.0 --refineFuse True --addLandmarksToTheDensePointCloud False --colorizeOutput False --saveRawDensePointCloud False --verboseLevel info --outputMesh \"D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-20frame/meshroom/MeshroomCache/Meshing/eff1d787194557b4fb5eebc7f8c69e3dfd8256d3/mesh.obj\" --output \"D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-20frame/meshroom/MeshroomCache/Meshing/eff1d787194557b4fb5eebc7f8c69e3dfd8256d3/densePointCloud.abc\" ",
+    "env": null,
+    "startDateTime": "2020-07-28 01:31:12.470759",
+    "endDateTime": "2020-07-28 01:31:17.853346",
+    "elapsedTime": 5.38258695602417,
+    "hostname": "IN-ENGR-KYUKAN1",
+    "sessionUid": "3fe73bf0-d093-11ea-b473-c8f750fb5923",
+    "returnCode": 0,
+    "elapsedTimeStr": "0:00:05.382587"
+}

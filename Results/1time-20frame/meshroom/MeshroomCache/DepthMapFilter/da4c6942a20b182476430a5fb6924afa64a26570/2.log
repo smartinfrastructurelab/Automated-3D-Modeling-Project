@@ -1,0 +1,48 @@
+Program called with the following parameters:
+ * computeNormalMaps = 0
+ * depthMapsFolder = "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-20frame/meshroom/MeshroomCache/DepthMap/e819cc894b5ee01627f2ca1b8ea71c0b6866a577"
+ * input = "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-20frame/meshroom/MeshroomCache/StructureFromMotion/250fee2381dcb52b1c6c19f312a235c95e36881b/sfm.abc"
+ * maxViewAngle = 70
+ * minNumOfConsistentCams = 3
+ * minNumOfConsistentCamsWithLowSimilarity = 4
+ * minViewAngle = 2
+ * nNearestCams = 10
+ * output = "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-20frame/meshroom/MeshroomCache/DepthMapFilter/da4c6942a20b182476430a5fb6924afa64a26570"
+ * pixSizeBall = 0
+ * pixSizeBallWithLowSimilarity = 0
+ * rangeSize = 10
+ * rangeStart = 20
+ * verboseLevel = "info"
+
+[01:31:11.417737][info] Found 25 image dimension(s): 
+[01:31:11.418738][info] 	- [283x995]
+[01:31:11.418738][info] 	- [354x942]
+[01:31:11.418738][info] 	- [387x1016]
+[01:31:11.418738][info] 	- [411x999]
+[01:31:11.418738][info] 	- [419x1080]
+[01:31:11.418738][info] 	- [422x1033]
+[01:31:11.418738][info] 	- [426x1044]
+[01:31:11.418738][info] 	- [438x1035]
+[01:31:11.418738][info] 	- [450x1080]
+[01:31:11.418738][info] 	- [456x1080]
+[01:31:11.418738][info] 	- [501x1080]
+[01:31:11.418738][info] 	- [504x1080]
+[01:31:11.418738][info] 	- [511x1080]
+[01:31:11.418738][info] 	- [522x1080]
+[01:31:11.418738][info] 	- [525x1080]
+[01:31:11.418738][info] 	- [555x1080]
+[01:31:11.418738][info] 	- [570x1080]
+[01:31:11.418738][info] 	- [579x1080]
+[01:31:11.418738][info] 	- [588x1080]
+[01:31:11.418738][info] 	- [606x1080]
+[01:31:11.418738][info] 	- [612x1080]
+[01:31:11.418738][info] 	- [615x1080]
+[01:31:11.418738][info] 	- [639x1080]
+[01:31:11.418738][info] 	- [642x1080]
+[01:31:11.418738][info] 	- [660x1080]
+[01:31:11.443738][info] Overall maximum dimension: [660x1080]
+[01:31:11.443738][info] Filter depth maps.
+[01:31:11.443738][info] Precomputing groups.
+[01:31:11.469734][info] Found only 9/10 nearest cameras for view id: 1955067201
+[01:31:12.249751][info] Filtering depth maps.
+[01:31:12.350739][info] Task done in (s): 0.948000

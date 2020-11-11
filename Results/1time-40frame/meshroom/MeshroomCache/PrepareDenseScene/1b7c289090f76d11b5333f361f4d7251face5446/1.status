@@ -1,0 +1,18 @@
+{
+    "status": "SUCCESS",
+    "execMode": "LOCAL",
+    "nodeName": "PrepareDenseScene_1",
+    "nodeType": "PrepareDenseScene",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_prepareDenseScene  --input \"D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/StructureFromMotion/824c4768f7ef1555379779a33d8570d739f96deb/sfm.abc\" --outputFileType exr --saveMetadata True --saveMatricesTxtFiles False --evCorrection False --verboseLevel info --output \"D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/PrepareDenseScene/1b7c289090f76d11b5333f361f4d7251face5446\" --rangeStart 40 --rangeSize 40",
+    "env": null,
+    "startDateTime": "2020-07-28 01:36:38.733248",
+    "endDateTime": "2020-07-28 01:36:39.368442",
+    "elapsedTime": 0.6351938247680664,
+    "hostname": "IN-ENGR-KYUKAN1",
+    "sessionUid": "21aafb7a-d094-11ea-b58f-c8f750fb5923",
+    "returnCode": 0,
+    "elapsedTimeStr": "0:00:00.635194"
+}

@@ -1,0 +1,18 @@
+{
+    "status": "SUCCESS",
+    "execMode": "LOCAL",
+    "nodeName": "StructureFromMotion_1",
+    "nodeType": "StructureFromMotion",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_incrementalSfM  --input \"D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-60frame/meshroom/MeshroomCache/CameraInit/f4cd343e033143b49a9d6648edba4d64518dd1af/cameraInit.sfm\" --featuresFolders \"D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-60frame/meshroom/MeshroomCache/FeatureExtraction/ce5db63caf2cf4985e74da9b0849ae925f1bb257\" --matchesFolders \"D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-60frame/meshroom/MeshroomCache/FeatureMatching/7077d0d80cd318194b66d46fcdfb1c78a2e0764d\" --describerTypes sift --localizerEstimator acransac --localizerEstimatorMaxIterations 4096 --localizerEstimatorError 0.0 --lockScenePreviouslyReconstructed False --useLocalBA True --localBAGraphDistance 1 --maxNumberOfMatches 0 --minInputTrackLength 2 --minNumberOfObservationsForTriangulation 2 --minAngleForTriangulation 3.0 --minAngleForLandmark 2.0 --maxReprojectionError 4.0 --minAngleInitialPair 5.0 --maxAngleInitialPair 40.0 --useOnlyMatchesFromInputFolder False --useRigConstraint True --lockAllIntrinsics False --initialPairA \"\" --initialPairB \"\" --interFileExtension .abc --verboseLevel info --output \"D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-60frame/meshroom/MeshroomCache/StructureFromMotion/1525f89206b8cfb498d0e7f076ac99d51dcc32ff/sfm.abc\" --outputViewsAndPoses \"D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-60frame/meshroom/MeshroomCache/StructureFromMotion/1525f89206b8cfb498d0e7f076ac99d51dcc32ff/cameras.sfm\" --extraInfoFolder \"D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-60frame/meshroom/MeshroomCache/StructureFromMotion/1525f89206b8cfb498d0e7f076ac99d51dcc32ff\" ",
+    "env": null,
+    "startDateTime": "2020-07-28 02:35:52.894633",
+    "endDateTime": "2020-07-28 02:36:16.990247",
+    "elapsedTime": 24.095614433288574,
+    "hostname": "IN-ENGR-KYUKAN1",
+    "sessionUid": "e1d7194a-d09b-11ea-9b7c-c8f750fb5923",
+    "returnCode": 0,
+    "elapsedTimeStr": "0:00:24.095614"
+}

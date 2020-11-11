@@ -1,0 +1,18 @@
+{
+    "status": "SUCCESS",
+    "execMode": "LOCAL",
+    "nodeName": "ExportColoredPointCloud_1",
+    "nodeType": "ExportColoredPointCloud",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_exportColoredPointCloud  --input \"D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-60frame/meshroom/MeshroomCache/StructureFromMotion/1525f89206b8cfb498d0e7f076ac99d51dcc32ff/sfm.abc\" --verboseLevel info --output \"D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-60frame/meshroom/MeshroomCache/ExportColoredPointCloud/2a18087c27055a85dba0130b7eaf2d98fee6c984/pointCloud.abc\" ",
+    "env": null,
+    "startDateTime": "2020-07-28 02:42:55.814736",
+    "endDateTime": "2020-07-28 02:42:56.419732",
+    "elapsedTime": 0.6049964427947998,
+    "hostname": "IN-ENGR-KYUKAN1",
+    "sessionUid": "e1d7194a-d09b-11ea-9b7c-c8f750fb5923",
+    "returnCode": 0,
+    "elapsedTimeStr": "0:00:00.604996"
+}

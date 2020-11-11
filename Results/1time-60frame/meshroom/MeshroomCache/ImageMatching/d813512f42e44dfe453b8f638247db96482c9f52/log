@@ -1,0 +1,15 @@
+Program called with the following parameters:
+ * featuresFolders =  = [D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-60frame/meshroom/MeshroomCache/FeatureExtraction/ce5db63caf2cf4985e74da9b0849ae925f1bb257]
+ * input = "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-60frame/meshroom/MeshroomCache/CameraInit/f4cd343e033143b49a9d6648edba4d64518dd1af/cameraInit.sfm"
+ * matchingMode = "a/a" (default)
+ * maxDescriptors = 500
+ * minNbImages = 200
+ * nbMatches = 50
+ * output = "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-60frame/meshroom/MeshroomCache/ImageMatching/d813512f42e44dfe453b8f638247db96482c9f52/imageMatches.txt"
+ * outputCombinedSfM = "" (default)
+ * tree = "D:\Meshroom-2019.2.0\aliceVision\share\aliceVision\vlfeat_K80L3.SIFT.tree"
+ * verboseLevel = "info"
+ * weights = ""
+
+[02:33:50.241944][info] Brute force generation
+[02:33:50.250944][info] pairList exported in: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-60frame/meshroom/MeshroomCache/ImageMatching/d813512f42e44dfe453b8f638247db96482c9f52/imageMatches.txt

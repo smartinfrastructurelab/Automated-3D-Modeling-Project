@@ -1,0 +1,1145 @@
+Program called with the following parameters:
+ * describerTypes = "sift"
+ * distanceRatio = 0.8
+ * exportDebugFiles = 0
+ * featuresFolders =  = [D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/FeatureExtraction/2fa4d659912e0383c4691bd33fad85acaaa3ca13]
+ * geometricError = 0
+ * geometricEstimator =  Unknown Type "enum aliceVision::robustEstimation::ERobustEstimator"
+ * geometricFilterType = "fundamental_matrix"
+ * guidedMatching = 0
+ * imagePairsList = "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt"
+ * input = "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/CameraInit/c4e14ab4d37be0e4ad238025a2bf863800206667/cameraInit.sfm"
+ * matchFilePerImage = 0 (default)
+ * maxIteration = 2048
+ * maxMatches = 0
+ * output = "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/FeatureMatching/4d834229826082c76cd3a35852f08c943eb22dbe"
+ * photometricMatchingMethod = "ANN_L2"
+ * rangeSize = 20
+ * rangeStart = 20
+ * savePutativeMatches = 0
+ * useGridSort = 1 (default)
+ * verboseLevel = "info"
+
+[01:36:19.966182][info] Load pair list from file: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt
+[01:36:19.967184][info] loadPairs: image pair (1009773410, 1034156287) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1009773410, 1048071823) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1009773410, 1140932673) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1009773410, 1199642573) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1009773410, 1292321729) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1009773410, 1302487967) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1009773410, 1336079149) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1009773410, 1375514710) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1009773410, 1386020826) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1009773410, 1386952078) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1009773410, 1403141592) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1009773410, 1437920077) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1009773410, 1442672628) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1009773410, 1486227816) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1009773410, 1488872754) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1009773410, 1513348680) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1009773410, 1547453566) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1009773410, 1597138438) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1009773410, 1676500074) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1009773410, 1704613598) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1009773410, 1757274528) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1009773410, 1768137885) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1009773410, 1772891979) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1009773410, 1838167405) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1009773410, 1863203546) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1009773410, 1893867912) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1009773410, 1894999866) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1009773410, 1897946761) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1009773410, 1955067201) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1009773410, 2055436659) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1034156287, 1048071823) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1034156287, 1140932673) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1034156287, 1199642573) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1034156287, 1292321729) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1034156287, 1302487967) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1034156287, 1336079149) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1034156287, 1375514710) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1034156287, 1386020826) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1034156287, 1386952078) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1034156287, 1403141592) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1034156287, 1437920077) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1034156287, 1442672628) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1034156287, 1486227816) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1034156287, 1488872754) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1034156287, 1513348680) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1034156287, 1547453566) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1034156287, 1597138438) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1034156287, 1676500074) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1034156287, 1704613598) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1034156287, 1757274528) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1034156287, 1768137885) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1034156287, 1772891979) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1034156287, 1838167405) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1034156287, 1863203546) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1034156287, 1893867912) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1034156287, 1894999866) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1034156287, 1897946761) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1034156287, 1955067201) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1034156287, 2055436659) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1048071823, 1140932673) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1048071823, 1199642573) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1048071823, 1292321729) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1048071823, 1302487967) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1048071823, 1336079149) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1048071823, 1375514710) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1048071823, 1386020826) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1048071823, 1386952078) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1048071823, 1403141592) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1048071823, 1437920077) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1048071823, 1442672628) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1048071823, 1486227816) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1048071823, 1488872754) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1048071823, 1513348680) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1048071823, 1547453566) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1048071823, 1597138438) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1048071823, 1676500074) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1048071823, 1704613598) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1048071823, 1757274528) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1048071823, 1768137885) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1048071823, 1772891979) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1048071823, 1838167405) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1048071823, 1863203546) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1048071823, 1893867912) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1048071823, 1894999866) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1048071823, 1897946761) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1048071823, 1955067201) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1048071823, 2055436659) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1140932673, 1199642573) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1140932673, 1292321729) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1140932673, 1302487967) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1140932673, 1336079149) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1140932673, 1375514710) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1140932673, 1386020826) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1140932673, 1386952078) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1140932673, 1403141592) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1140932673, 1437920077) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1140932673, 1442672628) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.967184][info] loadPairs: image pair (1140932673, 1486227816) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1140932673, 1488872754) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1140932673, 1513348680) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1140932673, 1547453566) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1140932673, 1597138438) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1140932673, 1676500074) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1140932673, 1704613598) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1140932673, 1757274528) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1140932673, 1768137885) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1140932673, 1772891979) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1140932673, 1838167405) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1140932673, 1863203546) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1140932673, 1893867912) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1140932673, 1894999866) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1140932673, 1897946761) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1140932673, 1955067201) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1140932673, 2055436659) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1199642573, 1292321729) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1199642573, 1302487967) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1199642573, 1336079149) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1199642573, 1375514710) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1199642573, 1386020826) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1199642573, 1386952078) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1199642573, 1403141592) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1199642573, 1437920077) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1199642573, 1442672628) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1199642573, 1486227816) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1199642573, 1488872754) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1199642573, 1513348680) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1199642573, 1547453566) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1199642573, 1597138438) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1199642573, 1676500074) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1199642573, 1704613598) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1199642573, 1757274528) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1199642573, 1768137885) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1199642573, 1772891979) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1199642573, 1838167405) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1199642573, 1863203546) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1199642573, 1893867912) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1199642573, 1894999866) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1199642573, 1897946761) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1199642573, 1955067201) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1199642573, 2055436659) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1292321729, 1302487967) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1292321729, 1336079149) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1292321729, 1375514710) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1292321729, 1386020826) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1292321729, 1386952078) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1292321729, 1403141592) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1292321729, 1437920077) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1292321729, 1442672628) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1292321729, 1486227816) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1292321729, 1488872754) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1292321729, 1513348680) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1292321729, 1547453566) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1292321729, 1597138438) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1292321729, 1676500074) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1292321729, 1704613598) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1292321729, 1757274528) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1292321729, 1768137885) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1292321729, 1772891979) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1292321729, 1838167405) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1292321729, 1863203546) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1292321729, 1893867912) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1292321729, 1894999866) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1292321729, 1897946761) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1292321729, 1955067201) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1292321729, 2055436659) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1302487967, 1336079149) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1302487967, 1375514710) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1302487967, 1386020826) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1302487967, 1386952078) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1302487967, 1403141592) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1302487967, 1437920077) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1302487967, 1442672628) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1302487967, 1486227816) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1302487967, 1488872754) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1302487967, 1513348680) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1302487967, 1547453566) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1302487967, 1597138438) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1302487967, 1676500074) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1302487967, 1704613598) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1302487967, 1757274528) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1302487967, 1768137885) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1302487967, 1772891979) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1302487967, 1838167405) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1302487967, 1863203546) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1302487967, 1893867912) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1302487967, 1894999866) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1302487967, 1897946761) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1302487967, 1955067201) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1302487967, 2055436659) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1336079149, 1375514710) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1336079149, 1386020826) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1336079149, 1386952078) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1336079149, 1403141592) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1336079149, 1437920077) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1336079149, 1442672628) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1336079149, 1486227816) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1336079149, 1488872754) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1336079149, 1513348680) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1336079149, 1547453566) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1336079149, 1597138438) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1336079149, 1676500074) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1336079149, 1704613598) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1336079149, 1757274528) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1336079149, 1768137885) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1336079149, 1772891979) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1336079149, 1838167405) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1336079149, 1863203546) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1336079149, 1893867912) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1336079149, 1894999866) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1336079149, 1897946761) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1336079149, 1955067201) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1336079149, 2055436659) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1375514710, 1386020826) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.968183][info] loadPairs: image pair (1375514710, 1386952078) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1375514710, 1403141592) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1375514710, 1437920077) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1375514710, 1442672628) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1375514710, 1486227816) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1375514710, 1488872754) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1375514710, 1513348680) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1375514710, 1547453566) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1375514710, 1597138438) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1375514710, 1676500074) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1375514710, 1704613598) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1375514710, 1757274528) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1375514710, 1768137885) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1375514710, 1772891979) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1375514710, 1838167405) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1375514710, 1863203546) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1375514710, 1893867912) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1375514710, 1894999866) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1375514710, 1897946761) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1375514710, 1955067201) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1375514710, 2055436659) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1386020826, 1386952078) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1386020826, 1403141592) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1386020826, 1437920077) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1386020826, 1442672628) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1386020826, 1486227816) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1386020826, 1488872754) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1386020826, 1513348680) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1386020826, 1547453566) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1386020826, 1597138438) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1386020826, 1676500074) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1386020826, 1704613598) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1386020826, 1757274528) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1386020826, 1768137885) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1386020826, 1772891979) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1386020826, 1838167405) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1386020826, 1863203546) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1386020826, 1893867912) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1386020826, 1894999866) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1386020826, 1897946761) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1386020826, 1955067201) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1386020826, 2055436659) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1386952078, 1403141592) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1386952078, 1437920077) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1386952078, 1442672628) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1386952078, 1486227816) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1386952078, 1488872754) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1386952078, 1513348680) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1386952078, 1547453566) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1386952078, 1597138438) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1386952078, 1676500074) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1386952078, 1704613598) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1386952078, 1757274528) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1386952078, 1768137885) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1386952078, 1772891979) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1386952078, 1838167405) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1386952078, 1863203546) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1386952078, 1893867912) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1386952078, 1894999866) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1386952078, 1897946761) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1386952078, 1955067201) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1386952078, 2055436659) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1403141592, 1437920077) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1403141592, 1442672628) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1403141592, 1486227816) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1403141592, 1488872754) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1403141592, 1513348680) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1403141592, 1547453566) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1403141592, 1597138438) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1403141592, 1676500074) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1403141592, 1704613598) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1403141592, 1757274528) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1403141592, 1768137885) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1403141592, 1772891979) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1403141592, 1838167405) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1403141592, 1863203546) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1403141592, 1893867912) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1403141592, 1894999866) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1403141592, 1897946761) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1403141592, 1955067201) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1403141592, 2055436659) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1437920077, 1442672628) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1437920077, 1486227816) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1437920077, 1488872754) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1437920077, 1513348680) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1437920077, 1547453566) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1437920077, 1597138438) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1437920077, 1676500074) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1437920077, 1704613598) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1437920077, 1757274528) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1437920077, 1768137885) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1437920077, 1772891979) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1437920077, 1838167405) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1437920077, 1863203546) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1437920077, 1893867912) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1437920077, 1894999866) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1437920077, 1897946761) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.969180][info] loadPairs: image pair (1437920077, 1955067201) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1437920077, 2055436659) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1442672628, 1486227816) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1442672628, 1488872754) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1442672628, 1513348680) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1442672628, 1547453566) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1442672628, 1597138438) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1442672628, 1676500074) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1442672628, 1704613598) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1442672628, 1757274528) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1442672628, 1768137885) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1442672628, 1772891979) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1442672628, 1838167405) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1442672628, 1863203546) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1442672628, 1893867912) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1442672628, 1894999866) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1442672628, 1897946761) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1442672628, 1955067201) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1442672628, 2055436659) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1486227816, 1488872754) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1486227816, 1513348680) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1486227816, 1547453566) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1486227816, 1597138438) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1486227816, 1676500074) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1486227816, 1704613598) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1486227816, 1757274528) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1486227816, 1768137885) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1486227816, 1772891979) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1486227816, 1838167405) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1486227816, 1863203546) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1486227816, 1893867912) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1486227816, 1894999866) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1486227816, 1897946761) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1486227816, 1955067201) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1486227816, 2055436659) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1488872754, 1513348680) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1488872754, 1547453566) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1488872754, 1597138438) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1488872754, 1676500074) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1488872754, 1704613598) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1488872754, 1757274528) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1488872754, 1768137885) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1488872754, 1772891979) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1488872754, 1838167405) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1488872754, 1863203546) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1488872754, 1893867912) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1488872754, 1894999866) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1488872754, 1897946761) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1488872754, 1955067201) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1488872754, 2055436659) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1513348680, 1547453566) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1513348680, 1597138438) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1513348680, 1676500074) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1513348680, 1704613598) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1513348680, 1757274528) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1513348680, 1768137885) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1513348680, 1772891979) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1513348680, 1838167405) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1513348680, 1863203546) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1513348680, 1893867912) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1513348680, 1894999866) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1513348680, 1897946761) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1513348680, 1955067201) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1513348680, 2055436659) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1547453566, 1597138438) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1547453566, 1676500074) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1547453566, 1704613598) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1547453566, 1757274528) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1547453566, 1768137885) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1547453566, 1772891979) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1547453566, 1838167405) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1547453566, 1863203546) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1547453566, 1893867912) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1547453566, 1894999866) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1547453566, 1897946761) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1547453566, 1955067201) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1547453566, 2055436659) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1597138438, 1676500074) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1597138438, 1704613598) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1597138438, 1757274528) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1597138438, 1768137885) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1597138438, 1772891979) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1597138438, 1838167405) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1597138438, 1863203546) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1597138438, 1893867912) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1597138438, 1894999866) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1597138438, 1897946761) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1597138438, 1955067201) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1597138438, 2055436659) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1676500074, 1704613598) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1676500074, 1757274528) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1676500074, 1768137885) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1676500074, 1772891979) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1676500074, 1838167405) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1676500074, 1863203546) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1676500074, 1893867912) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1676500074, 1894999866) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1676500074, 1897946761) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1676500074, 1955067201) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] loadPairs: image pair (1676500074, 2055436659) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/ImageMatching/45b426373f4438a961aeb5a0fb0e1c6fe46d5497/imageMatches.txt".
+[01:36:19.970180][info] Number of pairs: 410
+[01:36:19.970180][info] Putative matches
+[01:36:19.970180][info] There are 51 views and 410 image pairs.
+Loading regions
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+[01:36:20.004199][info] Supported CUDA-Enabled GPU detected.
+*******************************[01:36:20.142185][info] sift Regions Matching
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[01:36:21.950185][info] 410 putative image pair matches
+[01:36:21.950185][info] 	- image pair (1009773410, 1034156287) contains 285 putative matches.
+[01:36:21.950185][info] 	- image pair (1009773410, 1048071823) contains 82 putative matches.
+[01:36:21.950185][info] 	- image pair (1009773410, 1140932673) contains 200 putative matches.
+[01:36:21.950185][info] 	- image pair (1009773410, 1199642573) contains 79 putative matches.
+[01:36:21.950185][info] 	- image pair (1009773410, 1292321729) contains 122 putative matches.
+[01:36:21.950185][info] 	- image pair (1009773410, 1302487967) contains 26 putative matches.
+[01:36:21.950185][info] 	- image pair (1009773410, 1336079149) contains 17 putative matches.
+[01:36:21.950185][info] 	- image pair (1009773410, 1375514710) contains 26 putative matches.
+[01:36:21.950185][info] 	- image pair (1009773410, 1386020826) contains 42 putative matches.
+[01:36:21.950185][info] 	- image pair (1009773410, 1386952078) contains 21 putative matches.
+[01:36:21.950185][info] 	- image pair (1009773410, 1403141592) contains 23 putative matches.
+[01:36:21.950185][info] 	- image pair (1009773410, 1437920077) contains 19 putative matches.
+[01:36:21.950185][info] 	- image pair (1009773410, 1442672628) contains 14 putative matches.
+[01:36:21.950185][info] 	- image pair (1009773410, 1486227816) contains 29 putative matches.
+[01:36:21.950185][info] 	- image pair (1009773410, 1488872754) contains 347 putative matches.
+[01:36:21.950185][info] 	- image pair (1009773410, 1513348680) contains 111 putative matches.
+[01:36:21.951187][info] 	- image pair (1009773410, 1547453566) contains 18 putative matches.
+[01:36:21.951187][info] 	- image pair (1009773410, 1597138438) contains 146 putative matches.
+[01:36:21.951187][info] 	- image pair (1009773410, 1676500074) contains 14 putative matches.
+[01:36:21.951187][info] 	- image pair (1009773410, 1704613598) contains 228 putative matches.
+[01:36:21.951187][info] 	- image pair (1009773410, 1757274528) contains 17 putative matches.
+[01:36:21.951187][info] 	- image pair (1009773410, 1768137885) contains 34 putative matches.
+[01:36:21.951187][info] 	- image pair (1009773410, 1772891979) contains 11 putative matches.
+[01:36:21.951187][info] 	- image pair (1009773410, 1838167405) contains 455 putative matches.
+[01:36:21.951187][info] 	- image pair (1009773410, 1863203546) contains 48 putative matches.
+[01:36:21.951187][info] 	- image pair (1009773410, 1893867912) contains 311 putative matches.
+[01:36:21.951187][info] 	- image pair (1009773410, 1894999866) contains 17 putative matches.
+[01:36:21.951187][info] 	- image pair (1009773410, 1897946761) contains 23 putative matches.
+[01:36:21.951187][info] 	- image pair (1009773410, 1955067201) contains 13 putative matches.
+[01:36:21.951187][info] 	- image pair (1009773410, 2055436659) contains 127 putative matches.
+[01:36:21.951187][info] 	- image pair (1034156287, 1048071823) contains 55 putative matches.
+[01:36:21.951187][info] 	- image pair (1034156287, 1140932673) contains 149 putative matches.
+[01:36:21.951187][info] 	- image pair (1034156287, 1199642573) contains 127 putative matches.
+[01:36:21.951187][info] 	- image pair (1034156287, 1292321729) contains 174 putative matches.
+[01:36:21.951187][info] 	- image pair (1034156287, 1302487967) contains 29 putative matches.
+[01:36:21.951187][info] 	- image pair (1034156287, 1336079149) contains 20 putative matches.
+[01:36:21.951187][info] 	- image pair (1034156287, 1375514710) contains 20 putative matches.
+[01:36:21.951187][info] 	- image pair (1034156287, 1386020826) contains 28 putative matches.
+[01:36:21.951187][info] 	- image pair (1034156287, 1386952078) contains 22 putative matches.
+[01:36:21.951187][info] 	- image pair (1034156287, 1403141592) contains 20 putative matches.
+[01:36:21.951187][info] 	- image pair (1034156287, 1437920077) contains 27 putative matches.
+[01:36:21.951187][info] 	- image pair (1034156287, 1442672628) contains 23 putative matches.
+[01:36:21.951187][info] 	- image pair (1034156287, 1486227816) contains 21 putative matches.
+[01:36:21.951187][info] 	- image pair (1034156287, 1488872754) contains 377 putative matches.
+[01:36:21.951187][info] 	- image pair (1034156287, 1513348680) contains 72 putative matches.
+[01:36:21.951187][info] 	- image pair (1034156287, 1547453566) contains 24 putative matches.
+[01:36:21.951187][info] 	- image pair (1034156287, 1597138438) contains 214 putative matches.
+[01:36:21.951187][info] 	- image pair (1034156287, 1676500074) contains 21 putative matches.
+[01:36:21.951187][info] 	- image pair (1034156287, 1704613598) contains 305 putative matches.
+[01:36:21.951187][info] 	- image pair (1034156287, 1757274528) contains 19 putative matches.
+[01:36:21.951187][info] 	- image pair (1034156287, 1768137885) contains 22 putative matches.
+[01:36:21.951187][info] 	- image pair (1034156287, 1772891979) contains 14 putative matches.
+[01:36:21.951187][info] 	- image pair (1034156287, 1838167405) contains 274 putative matches.
+[01:36:21.951187][info] 	- image pair (1034156287, 1863203546) contains 71 putative matches.
+[01:36:21.951187][info] 	- image pair (1034156287, 1893867912) contains 188 putative matches.
+[01:36:21.951187][info] 	- image pair (1034156287, 1894999866) contains 20 putative matches.
+[01:36:21.951187][info] 	- image pair (1034156287, 1897946761) contains 20 putative matches.
+[01:36:21.951187][info] 	- image pair (1034156287, 1955067201) contains 20 putative matches.
+[01:36:21.951187][info] 	- image pair (1034156287, 2055436659) contains 75 putative matches.
+[01:36:21.951187][info] 	- image pair (1048071823, 1140932673) contains 205 putative matches.
+[01:36:21.951187][info] 	- image pair (1048071823, 1199642573) contains 13 putative matches.
+[01:36:21.951187][info] 	- image pair (1048071823, 1292321729) contains 28 putative matches.
+[01:36:21.951187][info] 	- image pair (1048071823, 1302487967) contains 24 putative matches.
+[01:36:21.951187][info] 	- image pair (1048071823, 1336079149) contains 47 putative matches.
+[01:36:21.951187][info] 	- image pair (1048071823, 1375514710) contains 160 putative matches.
+[01:36:21.951187][info] 	- image pair (1048071823, 1386020826) contains 326 putative matches.
+[01:36:21.951187][info] 	- image pair (1048071823, 1386952078) contains 98 putative matches.
+[01:36:21.951187][info] 	- image pair (1048071823, 1403141592) contains 17 putative matches.
+[01:36:21.951187][info] 	- image pair (1048071823, 1437920077) contains 19 putative matches.
+[01:36:21.951187][info] 	- image pair (1048071823, 1442672628) contains 17 putative matches.
+[01:36:21.951187][info] 	- image pair (1048071823, 1486227816) contains 19 putative matches.
+[01:36:21.951187][info] 	- image pair (1048071823, 1488872754) contains 55 putative matches.
+[01:36:21.951187][info] 	- image pair (1048071823, 1513348680) contains 613 putative matches.
+[01:36:21.951187][info] 	- image pair (1048071823, 1547453566) contains 18 putative matches.
+[01:36:21.951187][info] 	- image pair (1048071823, 1597138438) contains 16 putative matches.
+[01:36:21.951187][info] 	- image pair (1048071823, 1676500074) contains 37 putative matches.
+[01:36:21.951187][info] 	- image pair (1048071823, 1704613598) contains 43 putative matches.
+[01:36:21.951187][info] 	- image pair (1048071823, 1757274528) contains 50 putative matches.
+[01:36:21.951187][info] 	- image pair (1048071823, 1768137885) contains 278 putative matches.
+[01:36:21.951187][info] 	- image pair (1048071823, 1772891979) contains 28 putative matches.
+[01:36:21.951187][info] 	- image pair (1048071823, 1838167405) contains 82 putative matches.
+[01:36:21.951187][info] 	- image pair (1048071823, 1863203546) contains 8 putative matches.
+[01:36:21.951187][info] 	- image pair (1048071823, 1893867912) contains 98 putative matches.
+[01:36:21.951187][info] 	- image pair (1048071823, 1894999866) contains 74 putative matches.
+[01:36:21.951187][info] 	- image pair (1048071823, 1897946761) contains 82 putative matches.
+[01:36:21.951187][info] 	- image pair (1048071823, 1955067201) contains 10 putative matches.
+[01:36:21.951187][info] 	- image pair (1048071823, 2055436659) contains 317 putative matches.
+[01:36:21.951187][info] 	- image pair (1140932673, 1199642573) contains 29 putative matches.
+[01:36:21.951187][info] 	- image pair (1140932673, 1292321729) contains 52 putative matches.
+[01:36:21.951187][info] 	- image pair (1140932673, 1302487967) contains 28 putative matches.
+[01:36:21.951187][info] 	- image pair (1140932673, 1336079149) contains 27 putative matches.
+[01:36:21.951187][info] 	- image pair (1140932673, 1375514710) contains 51 putative matches.
+[01:36:21.951187][info] 	- image pair (1140932673, 1386020826) contains 81 putative matches.
+[01:36:21.951187][info] 	- image pair (1140932673, 1386952078) contains 24 putative matches.
+[01:36:21.951187][info] 	- image pair (1140932673, 1403141592) contains 17 putative matches.
+[01:36:21.951187][info] 	- image pair (1140932673, 1437920077) contains 27 putative matches.
+[01:36:21.951187][info] 	- image pair (1140932673, 1442672628) contains 9 putative matches.
+[01:36:21.951187][info] 	- image pair (1140932673, 1486227816) contains 19 putative matches.
+[01:36:21.951187][info] 	- image pair (1140932673, 1488872754) contains 148 putative matches.
+[01:36:21.951187][info] 	- image pair (1140932673, 1513348680) contains 278 putative matches.
+[01:36:21.951187][info] 	- image pair (1140932673, 1547453566) contains 28 putative matches.
+[01:36:21.951187][info] 	- image pair (1140932673, 1597138438) contains 52 putative matches.
+[01:36:21.951187][info] 	- image pair (1140932673, 1676500074) contains 28 putative matches.
+[01:36:21.951187][info] 	- image pair (1140932673, 1704613598) contains 108 putative matches.
+[01:36:21.951187][info] 	- image pair (1140932673, 1757274528) contains 32 putative matches.
+[01:36:21.951187][info] 	- image pair (1140932673, 1768137885) contains 73 putative matches.
+[01:36:21.951187][info] 	- image pair (1140932673, 1772891979) contains 24 putative matches.
+[01:36:21.951187][info] 	- image pair (1140932673, 1838167405) contains 221 putative matches.
+[01:36:21.951187][info] 	- image pair (1140932673, 1863203546) contains 16 putative matches.
+[01:36:21.951187][info] 	- image pair (1140932673, 1893867912) contains 281 putative matches.
+[01:36:21.951187][info] 	- image pair (1140932673, 1894999866) contains 34 putative matches.
+[01:36:21.951187][info] 	- image pair (1140932673, 1897946761) contains 38 putative matches.
+[01:36:21.951187][info] 	- image pair (1140932673, 1955067201) contains 11 putative matches.
+[01:36:21.951187][info] 	- image pair (1140932673, 2055436659) contains 331 putative matches.
+[01:36:21.951187][info] 	- image pair (1199642573, 1292321729) contains 277 putative matches.
+[01:36:21.951187][info] 	- image pair (1199642573, 1302487967) contains 22 putative matches.
+[01:36:21.951187][info] 	- image pair (1199642573, 1336079149) contains 29 putative matches.
+[01:36:21.951187][info] 	- image pair (1199642573, 1375514710) contains 29 putative matches.
+[01:36:21.951187][info] 	- image pair (1199642573, 1386020826) contains 19 putative matches.
+[01:36:21.951187][info] 	- image pair (1199642573, 1386952078) contains 24 putative matches.
+[01:36:21.951187][info] 	- image pair (1199642573, 1403141592) contains 18 putative matches.
+[01:36:21.951187][info] 	- image pair (1199642573, 1437920077) contains 23 putative matches.
+[01:36:21.951187][info] 	- image pair (1199642573, 1442672628) contains 15 putative matches.
+[01:36:21.951187][info] 	- image pair (1199642573, 1486227816) contains 17 putative matches.
+[01:36:21.951187][info] 	- image pair (1199642573, 1488872754) contains 119 putative matches.
+[01:36:21.951187][info] 	- image pair (1199642573, 1513348680) contains 34 putative matches.
+[01:36:21.951187][info] 	- image pair (1199642573, 1547453566) contains 22 putative matches.
+[01:36:21.951187][info] 	- image pair (1199642573, 1597138438) contains 229 putative matches.
+[01:36:21.951187][info] 	- image pair (1199642573, 1676500074) contains 28 putative matches.
+[01:36:21.951187][info] 	- image pair (1199642573, 1704613598) contains 183 putative matches.
+[01:36:21.951187][info] 	- image pair (1199642573, 1757274528) contains 27 putative matches.
+[01:36:21.951187][info] 	- image pair (1199642573, 1768137885) contains 21 putative matches.
+[01:36:21.951187][info] 	- image pair (1199642573, 1772891979) contains 15 putative matches.
+[01:36:21.952187][info] 	- image pair (1199642573, 1838167405) contains 83 putative matches.
+[01:36:21.952187][info] 	- image pair (1199642573, 1863203546) contains 188 putative matches.
+[01:36:21.952187][info] 	- image pair (1199642573, 1893867912) contains 63 putative matches.
+[01:36:21.952187][info] 	- image pair (1199642573, 1894999866) contains 25 putative matches.
+[01:36:21.952187][info] 	- image pair (1199642573, 1897946761) contains 27 putative matches.
+[01:36:21.952187][info] 	- image pair (1199642573, 1955067201) contains 70 putative matches.
+[01:36:21.952187][info] 	- image pair (1199642573, 2055436659) contains 35 putative matches.
+[01:36:21.952187][info] 	- image pair (1292321729, 1302487967) contains 24 putative matches.
+[01:36:21.952187][info] 	- image pair (1292321729, 1336079149) contains 30 putative matches.
+[01:36:21.952187][info] 	- image pair (1292321729, 1375514710) contains 23 putative matches.
+[01:36:21.952187][info] 	- image pair (1292321729, 1386020826) contains 25 putative matches.
+[01:36:21.952187][info] 	- image pair (1292321729, 1386952078) contains 21 putative matches.
+[01:36:21.952187][info] 	- image pair (1292321729, 1403141592) contains 22 putative matches.
+[01:36:21.952187][info] 	- image pair (1292321729, 1437920077) contains 21 putative matches.
+[01:36:21.952187][info] 	- image pair (1292321729, 1442672628) contains 19 putative matches.
+[01:36:21.952187][info] 	- image pair (1292321729, 1486227816) contains 20 putative matches.
+[01:36:21.952187][info] 	- image pair (1292321729, 1488872754) contains 167 putative matches.
+[01:36:21.952187][info] 	- image pair (1292321729, 1513348680) contains 52 putative matches.
+[01:36:21.952187][info] 	- image pair (1292321729, 1547453566) contains 18 putative matches.
+[01:36:21.952187][info] 	- image pair (1292321729, 1597138438) contains 321 putative matches.
+[01:36:21.952187][info] 	- image pair (1292321729, 1676500074) contains 23 putative matches.
+[01:36:21.952187][info] 	- image pair (1292321729, 1704613598) contains 280 putative matches.
+[01:36:21.952187][info] 	- image pair (1292321729, 1757274528) contains 29 putative matches.
+[01:36:21.952187][info] 	- image pair (1292321729, 1768137885) contains 22 putative matches.
+[01:36:21.952187][info] 	- image pair (1292321729, 1772891979) contains 16 putative matches.
+[01:36:21.952187][info] 	- image pair (1292321729, 1838167405) contains 127 putative matches.
+[01:36:21.952187][info] 	- image pair (1292321729, 1863203546) contains 193 putative matches.
+[01:36:21.952187][info] 	- image pair (1292321729, 1893867912) contains 98 putative matches.
+[01:36:21.952187][info] 	- image pair (1292321729, 1894999866) contains 27 putative matches.
+[01:36:21.952187][info] 	- image pair (1292321729, 1897946761) contains 25 putative matches.
+[01:36:21.952187][info] 	- image pair (1292321729, 1955067201) contains 51 putative matches.
+[01:36:21.952187][info] 	- image pair (1292321729, 2055436659) contains 44 putative matches.
+[01:36:21.952187][info] 	- image pair (1302487967, 1336079149) contains 80 putative matches.
+[01:36:21.952187][info] 	- image pair (1302487967, 1375514710) contains 29 putative matches.
+[01:36:21.952187][info] 	- image pair (1302487967, 1386020826) contains 15 putative matches.
+[01:36:21.952187][info] 	- image pair (1302487967, 1386952078) contains 24 putative matches.
+[01:36:21.952187][info] 	- image pair (1302487967, 1403141592) contains 492 putative matches.
+[01:36:21.952187][info] 	- image pair (1302487967, 1437920077) contains 370 putative matches.
+[01:36:21.952187][info] 	- image pair (1302487967, 1442672628) contains 395 putative matches.
+[01:36:21.952187][info] 	- image pair (1302487967, 1486227816) contains 748 putative matches.
+[01:36:21.952187][info] 	- image pair (1302487967, 1488872754) contains 23 putative matches.
+[01:36:21.952187][info] 	- image pair (1302487967, 1513348680) contains 21 putative matches.
+[01:36:21.952187][info] 	- image pair (1302487967, 1547453566) contains 419 putative matches.
+[01:36:21.952187][info] 	- image pair (1302487967, 1597138438) contains 8 putative matches.
+[01:36:21.952187][info] 	- image pair (1302487967, 1676500074) contains 122 putative matches.
+[01:36:21.952187][info] 	- image pair (1302487967, 1704613598) contains 7 putative matches.
+[01:36:21.952187][info] 	- image pair (1302487967, 1757274528) contains 46 putative matches.
+[01:36:21.952187][info] 	- image pair (1302487967, 1768137885) contains 15 putative matches.
+[01:36:21.952187][info] 	- image pair (1302487967, 1772891979) contains 140 putative matches.
+[01:36:21.952187][info] 	- image pair (1302487967, 1838167405) contains 11 putative matches.
+[01:36:21.952187][info] 	- image pair (1302487967, 1863203546) contains 6 putative matches.
+[01:36:21.952187][info] 	- image pair (1302487967, 1893867912) contains 11 putative matches.
+[01:36:21.952187][info] 	- image pair (1302487967, 1894999866) contains 37 putative matches.
+[01:36:21.952187][info] 	- image pair (1302487967, 1897946761) contains 41 putative matches.
+[01:36:21.952187][info] 	- image pair (1302487967, 1955067201) contains 5 putative matches.
+[01:36:21.952187][info] 	- image pair (1302487967, 2055436659) contains 14 putative matches.
+[01:36:21.952187][info] 	- image pair (1336079149, 1375514710) contains 185 putative matches.
+[01:36:21.952187][info] 	- image pair (1336079149, 1386020826) contains 82 putative matches.
+[01:36:21.952187][info] 	- image pair (1336079149, 1386952078) contains 266 putative matches.
+[01:36:21.952187][info] 	- image pair (1336079149, 1403141592) contains 39 putative matches.
+[01:36:21.952187][info] 	- image pair (1336079149, 1437920077) contains 154 putative matches.
+[01:36:21.952187][info] 	- image pair (1336079149, 1442672628) contains 44 putative matches.
+[01:36:21.952187][info] 	- image pair (1336079149, 1486227816) contains 69 putative matches.
+[01:36:21.952187][info] 	- image pair (1336079149, 1488872754) contains 15 putative matches.
+[01:36:21.952187][info] 	- image pair (1336079149, 1513348680) contains 37 putative matches.
+[01:36:21.952187][info] 	- image pair (1336079149, 1547453566) contains 135 putative matches.
+[01:36:21.952187][info] 	- image pair (1336079149, 1597138438) contains 10 putative matches.
+[01:36:21.952187][info] 	- image pair (1336079149, 1676500074) contains 638 putative matches.
+[01:36:21.952187][info] 	- image pair (1336079149, 1704613598) contains 10 putative matches.
+[01:36:21.952187][info] 	- image pair (1336079149, 1757274528) contains 878 putative matches.
+[01:36:21.952187][info] 	- image pair (1336079149, 1768137885) contains 83 putative matches.
+[01:36:21.952187][info] 	- image pair (1336079149, 1772891979) contains 476 putative matches.
+[01:36:21.952187][info] 	- image pair (1336079149, 1838167405) contains 13 putative matches.
+[01:36:21.952187][info] 	- image pair (1336079149, 1863203546) contains 10 putative matches.
+[01:36:21.952187][info] 	- image pair (1336079149, 1893867912) contains 14 putative matches.
+[01:36:21.952187][info] 	- image pair (1336079149, 1894999866) contains 509 putative matches.
+[01:36:21.952187][info] 	- image pair (1336079149, 1897946761) contains 410 putative matches.
+[01:36:21.952187][info] 	- image pair (1336079149, 1955067201) contains 5 putative matches.
+[01:36:21.952187][info] 	- image pair (1336079149, 2055436659) contains 28 putative matches.
+[01:36:21.952187][info] 	- image pair (1375514710, 1386020826) contains 424 putative matches.
+[01:36:21.952187][info] 	- image pair (1375514710, 1386952078) contains 574 putative matches.
+[01:36:21.952187][info] 	- image pair (1375514710, 1403141592) contains 22 putative matches.
+[01:36:21.952187][info] 	- image pair (1375514710, 1437920077) contains 44 putative matches.
+[01:36:21.952187][info] 	- image pair (1375514710, 1442672628) contains 24 putative matches.
+[01:36:21.952187][info] 	- image pair (1375514710, 1486227816) contains 28 putative matches.
+[01:36:21.952187][info] 	- image pair (1375514710, 1488872754) contains 12 putative matches.
+[01:36:21.952187][info] 	- image pair (1375514710, 1513348680) contains 106 putative matches.
+[01:36:21.952187][info] 	- image pair (1375514710, 1547453566) contains 47 putative matches.
+[01:36:21.952187][info] 	- image pair (1375514710, 1597138438) contains 12 putative matches.
+[01:36:21.952187][info] 	- image pair (1375514710, 1676500074) contains 132 putative matches.
+[01:36:21.952187][info] 	- image pair (1375514710, 1704613598) contains 14 putative matches.
+[01:36:21.952187][info] 	- image pair (1375514710, 1757274528) contains 221 putative matches.
+[01:36:21.952187][info] 	- image pair (1375514710, 1768137885) contains 440 putative matches.
+[01:36:21.952187][info] 	- image pair (1375514710, 1772891979) contains 108 putative matches.
+[01:36:21.952187][info] 	- image pair (1375514710, 1838167405) contains 21 putative matches.
+[01:36:21.952187][info] 	- image pair (1375514710, 1863203546) contains 8 putative matches.
+[01:36:21.952187][info] 	- image pair (1375514710, 1893867912) contains 25 putative matches.
+[01:36:21.952187][info] 	- image pair (1375514710, 1894999866) contains 320 putative matches.
+[01:36:21.952187][info] 	- image pair (1375514710, 1897946761) contains 425 putative matches.
+[01:36:21.952187][info] 	- image pair (1375514710, 1955067201) contains 5 putative matches.
+[01:36:21.952187][info] 	- image pair (1375514710, 2055436659) contains 65 putative matches.
+[01:36:21.952187][info] 	- image pair (1386020826, 1386952078) contains 260 putative matches.
+[01:36:21.952187][info] 	- image pair (1386020826, 1403141592) contains 21 putative matches.
+[01:36:21.952187][info] 	- image pair (1386020826, 1437920077) contains 29 putative matches.
+[01:36:21.952187][info] 	- image pair (1386020826, 1442672628) contains 16 putative matches.
+[01:36:21.952187][info] 	- image pair (1386020826, 1486227816) contains 15 putative matches.
+[01:36:21.952187][info] 	- image pair (1386020826, 1488872754) contains 12 putative matches.
+[01:36:21.952187][info] 	- image pair (1386020826, 1513348680) contains 225 putative matches.
+[01:36:21.952187][info] 	- image pair (1386020826, 1547453566) contains 28 putative matches.
+[01:36:21.952187][info] 	- image pair (1386020826, 1597138438) contains 14 putative matches.
+[01:36:21.952187][info] 	- image pair (1386020826, 1676500074) contains 60 putative matches.
+[01:36:21.952187][info] 	- image pair (1386020826, 1704613598) contains 17 putative matches.
+[01:36:21.952187][info] 	- image pair (1386020826, 1757274528) contains 111 putative matches.
+[01:36:21.952187][info] 	- image pair (1386020826, 1768137885) contains 871 putative matches.
+[01:36:21.952187][info] 	- image pair (1386020826, 1772891979) contains 50 putative matches.
+[01:36:21.952187][info] 	- image pair (1386020826, 1838167405) contains 26 putative matches.
+[01:36:21.952187][info] 	- image pair (1386020826, 1863203546) contains 10 putative matches.
+[01:36:21.952187][info] 	- image pair (1386020826, 1893867912) contains 29 putative matches.
+[01:36:21.952187][info] 	- image pair (1386020826, 1894999866) contains 170 putative matches.
+[01:36:21.952187][info] 	- image pair (1386020826, 1897946761) contains 193 putative matches.
+[01:36:21.952187][info] 	- image pair (1386020826, 1955067201) contains 10 putative matches.
+[01:36:21.952187][info] 	- image pair (1386020826, 2055436659) contains 119 putative matches.
+[01:36:21.952187][info] 	- image pair (1386952078, 1403141592) contains 21 putative matches.
+[01:36:21.952187][info] 	- image pair (1386952078, 1437920077) contains 55 putative matches.
+[01:36:21.952187][info] 	- image pair (1386952078, 1442672628) contains 20 putative matches.
+[01:36:21.952187][info] 	- image pair (1386952078, 1486227816) contains 29 putative matches.
+[01:36:21.952187][info] 	- image pair (1386952078, 1488872754) contains 13 putative matches.
+[01:36:21.952187][info] 	- image pair (1386952078, 1513348680) contains 68 putative matches.
+[01:36:21.952187][info] 	- image pair (1386952078, 1547453566) contains 53 putative matches.
+[01:36:21.952187][info] 	- image pair (1386952078, 1597138438) contains 14 putative matches.
+[01:36:21.952187][info] 	- image pair (1386952078, 1676500074) contains 178 putative matches.
+[01:36:21.952187][info] 	- image pair (1386952078, 1704613598) contains 17 putative matches.
+[01:36:21.952187][info] 	- image pair (1386952078, 1757274528) contains 307 putative matches.
+[01:36:21.952187][info] 	- image pair (1386952078, 1768137885) contains 283 putative matches.
+[01:36:21.952187][info] 	- image pair (1386952078, 1772891979) contains 137 putative matches.
+[01:36:21.952187][info] 	- image pair (1386952078, 1838167405) contains 11 putative matches.
+[01:36:21.952187][info] 	- image pair (1386952078, 1863203546) contains 13 putative matches.
+[01:36:21.952187][info] 	- image pair (1386952078, 1893867912) contains 13 putative matches.
+[01:36:21.952187][info] 	- image pair (1386952078, 1894999866) contains 430 putative matches.
+[01:36:21.952187][info] 	- image pair (1386952078, 1897946761) contains 610 putative matches.
+[01:36:21.952187][info] 	- image pair (1386952078, 1955067201) contains 3 putative matches.
+[01:36:21.952187][info] 	- image pair (1386952078, 2055436659) contains 40 putative matches.
+[01:36:21.952187][info] 	- image pair (1403141592, 1437920077) contains 165 putative matches.
+[01:36:21.953187][info] 	- image pair (1403141592, 1442672628) contains 685 putative matches.
+[01:36:21.953187][info] 	- image pair (1403141592, 1486227816) contains 733 putative matches.
+[01:36:21.953187][info] 	- image pair (1403141592, 1488872754) contains 5 putative matches.
+[01:36:21.953187][info] 	- image pair (1403141592, 1513348680) contains 19 putative matches.
+[01:36:21.953187][info] 	- image pair (1403141592, 1547453566) contains 195 putative matches.
+[01:36:21.953187][info] 	- image pair (1403141592, 1597138438) contains 10 putative matches.
+[01:36:21.953187][info] 	- image pair (1403141592, 1676500074) contains 89 putative matches.
+[01:36:21.953187][info] 	- image pair (1403141592, 1704613598) contains 2 putative matches.
+[01:36:21.953187][info] 	- image pair (1403141592, 1757274528) contains 27 putative matches.
+[01:36:21.953187][info] 	- image pair (1403141592, 1768137885) contains 27 putative matches.
+[01:36:21.953187][info] 	- image pair (1403141592, 1772891979) contains 75 putative matches.
+[01:36:21.953187][info] 	- image pair (1403141592, 1838167405) contains 7 putative matches.
+[01:36:21.953187][info] 	- image pair (1403141592, 1863203546) contains 5 putative matches.
+[01:36:21.953187][info] 	- image pair (1403141592, 1893867912) contains 9 putative matches.
+[01:36:21.953187][info] 	- image pair (1403141592, 1894999866) contains 33 putative matches.
+[01:36:21.953187][info] 	- image pair (1403141592, 1897946761) contains 25 putative matches.
+[01:36:21.953187][info] 	- image pair (1403141592, 1955067201) contains 3 putative matches.
+[01:36:21.953187][info] 	- image pair (1403141592, 2055436659) contains 11 putative matches.
+[01:36:21.953187][info] 	- image pair (1437920077, 1442672628) contains 137 putative matches.
+[01:36:21.953187][info] 	- image pair (1437920077, 1486227816) contains 274 putative matches.
+[01:36:21.953187][info] 	- image pair (1437920077, 1488872754) contains 7 putative matches.
+[01:36:21.953187][info] 	- image pair (1437920077, 1513348680) contains 13 putative matches.
+[01:36:21.953187][info] 	- image pair (1437920077, 1547453566) contains 1041 putative matches.
+[01:36:21.953187][info] 	- image pair (1437920077, 1597138438) contains 4 putative matches.
+[01:36:21.953187][info] 	- image pair (1437920077, 1676500074) contains 235 putative matches.
+[01:36:21.953187][info] 	- image pair (1437920077, 1704613598) contains 12 putative matches.
+[01:36:21.953187][info] 	- image pair (1437920077, 1757274528) contains 101 putative matches.
+[01:36:21.953187][info] 	- image pair (1437920077, 1768137885) contains 30 putative matches.
+[01:36:21.953187][info] 	- image pair (1437920077, 1772891979) contains 270 putative matches.
+[01:36:21.953187][info] 	- image pair (1437920077, 1838167405) contains 6 putative matches.
+[01:36:21.953187][info] 	- image pair (1437920077, 1863203546) contains 1 putative matches.
+[01:36:21.953187][info] 	- image pair (1437920077, 1893867912) contains 7 putative matches.
+[01:36:21.953187][info] 	- image pair (1437920077, 1894999866) contains 78 putative matches.
+[01:36:21.953187][info] 	- image pair (1437920077, 1897946761) contains 80 putative matches.
+[01:36:21.953187][info] 	- image pair (1437920077, 1955067201) contains 3 putative matches.
+[01:36:21.953187][info] 	- image pair (1437920077, 2055436659) contains 15 putative matches.
+[01:36:21.953187][info] 	- image pair (1442672628, 1486227816) contains 535 putative matches.
+[01:36:21.953187][info] 	- image pair (1442672628, 1488872754) contains 15 putative matches.
+[01:36:21.953187][info] 	- image pair (1442672628, 1513348680) contains 15 putative matches.
+[01:36:21.953187][info] 	- image pair (1442672628, 1547453566) contains 162 putative matches.
+[01:36:21.953187][info] 	- image pair (1442672628, 1597138438) contains 5 putative matches.
+[01:36:21.953187][info] 	- image pair (1442672628, 1676500074) contains 80 putative matches.
+[01:36:21.953187][info] 	- image pair (1442672628, 1704613598) contains 6 putative matches.
+[01:36:21.953187][info] 	- image pair (1442672628, 1757274528) contains 32 putative matches.
+[01:36:21.953187][info] 	- image pair (1442672628, 1768137885) contains 17 putative matches.
+[01:36:21.953187][info] 	- image pair (1442672628, 1772891979) contains 83 putative matches.
+[01:36:21.953187][info] 	- image pair (1442672628, 1838167405) contains 13 putative matches.
+[01:36:21.953187][info] 	- image pair (1442672628, 1863203546) contains 5 putative matches.
+[01:36:21.953187][info] 	- image pair (1442672628, 1893867912) contains 18 putative matches.
+[01:36:21.953187][info] 	- image pair (1442672628, 1894999866) contains 26 putative matches.
+[01:36:21.953187][info] 	- image pair (1442672628, 1897946761) contains 29 putative matches.
+[01:36:21.953187][info] 	- image pair (1442672628, 1955067201) contains 5 putative matches.
+[01:36:21.953187][info] 	- image pair (1442672628, 2055436659) contains 13 putative matches.
+[01:36:21.953187][info] 	- image pair (1486227816, 1488872754) contains 11 putative matches.
+[01:36:21.953187][info] 	- image pair (1486227816, 1513348680) contains 18 putative matches.
+[01:36:21.953187][info] 	- image pair (1486227816, 1547453566) contains 306 putative matches.
+[01:36:21.953187][info] 	- image pair (1486227816, 1597138438) contains 12 putative matches.
+[01:36:21.953187][info] 	- image pair (1486227816, 1676500074) contains 104 putative matches.
+[01:36:21.953187][info] 	- image pair (1486227816, 1704613598) contains 9 putative matches.
+[01:36:21.953187][info] 	- image pair (1486227816, 1757274528) contains 45 putative matches.
+[01:36:21.953187][info] 	- image pair (1486227816, 1768137885) contains 14 putative matches.
+[01:36:21.953187][info] 	- image pair (1486227816, 1772891979) contains 105 putative matches.
+[01:36:21.953187][info] 	- image pair (1486227816, 1838167405) contains 10 putative matches.
+[01:36:21.953187][info] 	- image pair (1486227816, 1863203546) contains 10 putative matches.
+[01:36:21.953187][info] 	- image pair (1486227816, 1893867912) contains 13 putative matches.
+[01:36:21.953187][info] 	- image pair (1486227816, 1894999866) contains 28 putative matches.
+[01:36:21.953187][info] 	- image pair (1486227816, 1897946761) contains 26 putative matches.
+[01:36:21.953187][info] 	- image pair (1486227816, 1955067201) contains 5 putative matches.
+[01:36:21.953187][info] 	- image pair (1486227816, 2055436659) contains 12 putative matches.
+[01:36:21.953187][info] 	- image pair (1488872754, 1513348680) contains 71 putative matches.
+[01:36:21.953187][info] 	- image pair (1488872754, 1547453566) contains 28 putative matches.
+[01:36:21.953187][info] 	- image pair (1488872754, 1597138438) contains 197 putative matches.
+[01:36:21.953187][info] 	- image pair (1488872754, 1676500074) contains 22 putative matches.
+[01:36:21.953187][info] 	- image pair (1488872754, 1704613598) contains 284 putative matches.
+[01:36:21.953187][info] 	- image pair (1488872754, 1757274528) contains 30 putative matches.
+[01:36:21.953187][info] 	- image pair (1488872754, 1768137885) contains 30 putative matches.
+[01:36:21.953187][info] 	- image pair (1488872754, 1772891979) contains 21 putative matches.
+[01:36:21.953187][info] 	- image pair (1488872754, 1838167405) contains 331 putative matches.
+[01:36:21.953187][info] 	- image pair (1488872754, 1863203546) contains 64 putative matches.
+[01:36:21.953187][info] 	- image pair (1488872754, 1893867912) contains 223 putative matches.
+[01:36:21.953187][info] 	- image pair (1488872754, 1894999866) contains 23 putative matches.
+[01:36:21.953187][info] 	- image pair (1488872754, 1897946761) contains 27 putative matches.
+[01:36:21.953187][info] 	- image pair (1488872754, 1955067201) contains 18 putative matches.
+[01:36:21.953187][info] 	- image pair (1488872754, 2055436659) contains 88 putative matches.
+[01:36:21.953187][info] 	- image pair (1513348680, 1547453566) contains 16 putative matches.
+[01:36:21.953187][info] 	- image pair (1513348680, 1597138438) contains 25 putative matches.
+[01:36:21.953187][info] 	- image pair (1513348680, 1676500074) contains 25 putative matches.
+[01:36:21.953187][info] 	- image pair (1513348680, 1704613598) contains 51 putative matches.
+[01:36:21.953187][info] 	- image pair (1513348680, 1757274528) contains 36 putative matches.
+[01:36:21.953187][info] 	- image pair (1513348680, 1768137885) contains 192 putative matches.
+[01:36:21.953187][info] 	- image pair (1513348680, 1772891979) contains 19 putative matches.
+[01:36:21.953187][info] 	- image pair (1513348680, 1838167405) contains 107 putative matches.
+[01:36:21.953187][info] 	- image pair (1513348680, 1863203546) contains 14 putative matches.
+[01:36:21.953187][info] 	- image pair (1513348680, 1893867912) contains 143 putative matches.
+[01:36:21.953187][info] 	- image pair (1513348680, 1894999866) contains 33 putative matches.
+[01:36:21.953187][info] 	- image pair (1513348680, 1897946761) contains 46 putative matches.
+[01:36:21.953187][info] 	- image pair (1513348680, 1955067201) contains 14 putative matches.
+[01:36:21.953187][info] 	- image pair (1513348680, 2055436659) contains 420 putative matches.
+[01:36:21.953187][info] 	- image pair (1547453566, 1597138438) contains 9 putative matches.
+[01:36:21.953187][info] 	- image pair (1547453566, 1676500074) contains 202 putative matches.
+[01:36:21.953187][info] 	- image pair (1547453566, 1704613598) contains 10 putative matches.
+[01:36:21.953187][info] 	- image pair (1547453566, 1757274528) contains 87 putative matches.
+[01:36:21.953187][info] 	- image pair (1547453566, 1768137885) contains 27 putative matches.
+[01:36:21.953187][info] 	- image pair (1547453566, 1772891979) contains 229 putative matches.
+[01:36:21.953187][info] 	- image pair (1547453566, 1838167405) contains 8 putative matches.
+[01:36:21.953187][info] 	- image pair (1547453566, 1863203546) contains 4 putative matches.
+[01:36:21.953187][info] 	- image pair (1547453566, 1893867912) contains 6 putative matches.
+[01:36:21.953187][info] 	- image pair (1547453566, 1894999866) contains 74 putative matches.
+[01:36:21.953187][info] 	- image pair (1547453566, 1897946761) contains 61 putative matches.
+[01:36:21.953187][info] 	- image pair (1547453566, 1955067201) contains 4 putative matches.
+[01:36:21.953187][info] 	- image pair (1547453566, 2055436659) contains 8 putative matches.
+[01:36:21.953187][info] 	- image pair (1597138438, 1676500074) contains 21 putative matches.
+[01:36:21.953187][info] 	- image pair (1597138438, 1704613598) contains 297 putative matches.
+[01:36:21.953187][info] 	- image pair (1597138438, 1757274528) contains 23 putative matches.
+[01:36:21.953187][info] 	- image pair (1597138438, 1768137885) contains 29 putative matches.
+[01:36:21.953187][info] 	- image pair (1597138438, 1772891979) contains 20 putative matches.
+[01:36:21.953187][info] 	- image pair (1597138438, 1838167405) contains 152 putative matches.
+[01:36:21.953187][info] 	- image pair (1597138438, 1863203546) contains 142 putative matches.
+[01:36:21.953187][info] 	- image pair (1597138438, 1893867912) contains 107 putative matches.
+[01:36:21.953187][info] 	- image pair (1597138438, 1894999866) contains 21 putative matches.
+[01:36:21.953187][info] 	- image pair (1597138438, 1897946761) contains 18 putative matches.
+[01:36:21.953187][info] 	- image pair (1597138438, 1955067201) contains 38 putative matches.
+[01:36:21.953187][info] 	- image pair (1597138438, 2055436659) contains 42 putative matches.
+[01:36:21.953187][info] 	- image pair (1676500074, 1704613598) contains 19 putative matches.
+[01:36:21.953187][info] 	- image pair (1676500074, 1757274528) contains 517 putative matches.
+[01:36:21.953187][info] 	- image pair (1676500074, 1768137885) contains 74 putative matches.
+[01:36:21.953187][info] 	- image pair (1676500074, 1772891979) contains 649 putative matches.
+[01:36:21.953187][info] 	- image pair (1676500074, 1838167405) contains 8 putative matches.
+[01:36:21.953187][info] 	- image pair (1676500074, 1863203546) contains 9 putative matches.
+[01:36:21.953187][info] 	- image pair (1676500074, 1893867912) contains 5 putative matches.
+[01:36:21.953187][info] 	- image pair (1676500074, 1894999866) contains 357 putative matches.
+[01:36:21.953187][info] 	- image pair (1676500074, 1897946761) contains 285 putative matches.
+[01:36:21.953187][info] 	- image pair (1676500074, 1955067201) contains 3 putative matches.
+[01:36:21.953187][info] 	- image pair (1676500074, 2055436659) contains 14 putative matches.
+[01:36:21.953187][info] Task (Regions Matching) done in (s): 1.811000
+[01:36:21.955186][info] Geometric filtering: using fundamental_matrix
+Robust Model Estimation
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[01:36:23.058189][info] 139 geometric image pair matches:
+[01:36:23.059190][info] 	- image pair (1009773410, 1034156287) contains 265 geometric matches.
+[01:36:23.059190][info] 	- image pair (1009773410, 1048071823) contains 62 geometric matches.
+[01:36:23.059190][info] 	- image pair (1009773410, 1140932673) contains 183 geometric matches.
+[01:36:23.059190][info] 	- image pair (1009773410, 1199642573) contains 68 geometric matches.
+[01:36:23.059190][info] 	- image pair (1009773410, 1292321729) contains 111 geometric matches.
+[01:36:23.059190][info] 	- image pair (1009773410, 1488872754) contains 342 geometric matches.
+[01:36:23.059190][info] 	- image pair (1009773410, 1513348680) contains 93 geometric matches.
+[01:36:23.059190][info] 	- image pair (1009773410, 1597138438) contains 135 geometric matches.
+[01:36:23.059190][info] 	- image pair (1009773410, 1704613598) contains 214 geometric matches.
+[01:36:23.059190][info] 	- image pair (1009773410, 1838167405) contains 426 geometric matches.
+[01:36:23.059190][info] 	- image pair (1009773410, 1893867912) contains 282 geometric matches.
+[01:36:23.059190][info] 	- image pair (1009773410, 2055436659) contains 105 geometric matches.
+[01:36:23.059190][info] 	- image pair (1034156287, 1140932673) contains 131 geometric matches.
+[01:36:23.059190][info] 	- image pair (1034156287, 1199642573) contains 105 geometric matches.
+[01:36:23.059190][info] 	- image pair (1034156287, 1292321729) contains 158 geometric matches.
+[01:36:23.059190][info] 	- image pair (1034156287, 1488872754) contains 358 geometric matches.
+[01:36:23.059190][info] 	- image pair (1034156287, 1513348680) contains 52 geometric matches.
+[01:36:23.059190][info] 	- image pair (1034156287, 1597138438) contains 207 geometric matches.
+[01:36:23.059190][info] 	- image pair (1034156287, 1704613598) contains 297 geometric matches.
+[01:36:23.059190][info] 	- image pair (1034156287, 1838167405) contains 254 geometric matches.
+[01:36:23.059190][info] 	- image pair (1034156287, 1863203546) contains 60 geometric matches.
+[01:36:23.059190][info] 	- image pair (1034156287, 1893867912) contains 163 geometric matches.
+[01:36:23.059190][info] 	- image pair (1034156287, 2055436659) contains 55 geometric matches.
+[01:36:23.059190][info] 	- image pair (1048071823, 1140932673) contains 190 geometric matches.
+[01:36:23.059190][info] 	- image pair (1048071823, 1375514710) contains 137 geometric matches.
+[01:36:23.059190][info] 	- image pair (1048071823, 1386020826) contains 291 geometric matches.
+[01:36:23.059190][info] 	- image pair (1048071823, 1386952078) contains 69 geometric matches.
+[01:36:23.059190][info] 	- image pair (1048071823, 1513348680) contains 574 geometric matches.
+[01:36:23.059190][info] 	- image pair (1048071823, 1768137885) contains 255 geometric matches.
+[01:36:23.059190][info] 	- image pair (1048071823, 1838167405) contains 71 geometric matches.
+[01:36:23.059190][info] 	- image pair (1048071823, 1893867912) contains 78 geometric matches.
+[01:36:23.059190][info] 	- image pair (1048071823, 1897946761) contains 61 geometric matches.
+[01:36:23.059190][info] 	- image pair (1048071823, 2055436659) contains 300 geometric matches.
+[01:36:23.059190][info] 	- image pair (1140932673, 1386020826) contains 67 geometric matches.
+[01:36:23.059190][info] 	- image pair (1140932673, 1488872754) contains 125 geometric matches.
+[01:36:23.059190][info] 	- image pair (1140932673, 1513348680) contains 243 geometric matches.
+[01:36:23.059190][info] 	- image pair (1140932673, 1704613598) contains 90 geometric matches.
+[01:36:23.059190][info] 	- image pair (1140932673, 1768137885) contains 57 geometric matches.
+[01:36:23.059190][info] 	- image pair (1140932673, 1838167405) contains 210 geometric matches.
+[01:36:23.059190][info] 	- image pair (1140932673, 1893867912) contains 263 geometric matches.
+[01:36:23.059190][info] 	- image pair (1140932673, 2055436659) contains 299 geometric matches.
+[01:36:23.059190][info] 	- image pair (1199642573, 1292321729) contains 257 geometric matches.
+[01:36:23.059190][info] 	- image pair (1199642573, 1488872754) contains 90 geometric matches.
+[01:36:23.059190][info] 	- image pair (1199642573, 1597138438) contains 204 geometric matches.
+[01:36:23.059190][info] 	- image pair (1199642573, 1704613598) contains 158 geometric matches.
+[01:36:23.059190][info] 	- image pair (1199642573, 1838167405) contains 63 geometric matches.
+[01:36:23.059190][info] 	- image pair (1199642573, 1863203546) contains 167 geometric matches.
+[01:36:23.059190][info] 	- image pair (1199642573, 1955067201) contains 62 geometric matches.
+[01:36:23.059190][info] 	- image pair (1292321729, 1488872754) contains 146 geometric matches.
+[01:36:23.059190][info] 	- image pair (1292321729, 1597138438) contains 301 geometric matches.
+[01:36:23.059190][info] 	- image pair (1292321729, 1704613598) contains 245 geometric matches.
+[01:36:23.059190][info] 	- image pair (1292321729, 1838167405) contains 108 geometric matches.
+[01:36:23.059190][info] 	- image pair (1292321729, 1863203546) contains 184 geometric matches.
+[01:36:23.059190][info] 	- image pair (1292321729, 1893867912) contains 86 geometric matches.
+[01:36:23.059190][info] 	- image pair (1302487967, 1336079149) contains 58 geometric matches.
+[01:36:23.059190][info] 	- image pair (1302487967, 1403141592) contains 441 geometric matches.
+[01:36:23.059190][info] 	- image pair (1302487967, 1437920077) contains 339 geometric matches.
+[01:36:23.059190][info] 	- image pair (1302487967, 1442672628) contains 350 geometric matches.
+[01:36:23.059190][info] 	- image pair (1302487967, 1486227816) contains 699 geometric matches.
+[01:36:23.059190][info] 	- image pair (1302487967, 1547453566) contains 378 geometric matches.
+[01:36:23.059190][info] 	- image pair (1302487967, 1676500074) contains 98 geometric matches.
+[01:36:23.059190][info] 	- image pair (1302487967, 1772891979) contains 109 geometric matches.
+[01:36:23.059190][info] 	- image pair (1336079149, 1375514710) contains 162 geometric matches.
+[01:36:23.059190][info] 	- image pair (1336079149, 1386020826) contains 71 geometric matches.
+[01:36:23.059190][info] 	- image pair (1336079149, 1386952078) contains 235 geometric matches.
+[01:36:23.059190][info] 	- image pair (1336079149, 1437920077) contains 123 geometric matches.
+[01:36:23.059190][info] 	- image pair (1336079149, 1547453566) contains 103 geometric matches.
+[01:36:23.059190][info] 	- image pair (1336079149, 1676500074) contains 593 geometric matches.
+[01:36:23.059190][info] 	- image pair (1336079149, 1757274528) contains 832 geometric matches.
+[01:36:23.059190][info] 	- image pair (1336079149, 1768137885) contains 76 geometric matches.
+[01:36:23.059190][info] 	- image pair (1336079149, 1772891979) contains 448 geometric matches.
+[01:36:23.059190][info] 	- image pair (1336079149, 1894999866) contains 480 geometric matches.
+[01:36:23.059190][info] 	- image pair (1336079149, 1897946761) contains 365 geometric matches.
+[01:36:23.059190][info] 	- image pair (1375514710, 1386020826) contains 387 geometric matches.
+[01:36:23.059190][info] 	- image pair (1375514710, 1386952078) contains 531 geometric matches.
+[01:36:23.059190][info] 	- image pair (1375514710, 1513348680) contains 80 geometric matches.
+[01:36:23.059190][info] 	- image pair (1375514710, 1676500074) contains 103 geometric matches.
+[01:36:23.059190][info] 	- image pair (1375514710, 1757274528) contains 200 geometric matches.
+[01:36:23.059190][info] 	- image pair (1375514710, 1768137885) contains 397 geometric matches.
+[01:36:23.059190][info] 	- image pair (1375514710, 1772891979) contains 89 geometric matches.
+[01:36:23.059190][info] 	- image pair (1375514710, 1894999866) contains 278 geometric matches.
+[01:36:23.059190][info] 	- image pair (1375514710, 1897946761) contains 399 geometric matches.
+[01:36:23.059190][info] 	- image pair (1386020826, 1386952078) contains 230 geometric matches.
+[01:36:23.059190][info] 	- image pair (1386020826, 1513348680) contains 209 geometric matches.
+[01:36:23.059190][info] 	- image pair (1386020826, 1757274528) contains 101 geometric matches.
+[01:36:23.059190][info] 	- image pair (1386020826, 1768137885) contains 817 geometric matches.
+[01:36:23.059190][info] 	- image pair (1386020826, 1894999866) contains 148 geometric matches.
+[01:36:23.059190][info] 	- image pair (1386020826, 1897946761) contains 167 geometric matches.
+[01:36:23.059190][info] 	- image pair (1386020826, 2055436659) contains 104 geometric matches.
+[01:36:23.059190][info] 	- image pair (1386952078, 1676500074) contains 153 geometric matches.
+[01:36:23.059190][info] 	- image pair (1386952078, 1757274528) contains 274 geometric matches.
+[01:36:23.059190][info] 	- image pair (1386952078, 1768137885) contains 253 geometric matches.
+[01:36:23.059190][info] 	- image pair (1386952078, 1772891979) contains 116 geometric matches.
+[01:36:23.059190][info] 	- image pair (1386952078, 1894999866) contains 397 geometric matches.
+[01:36:23.059190][info] 	- image pair (1386952078, 1897946761) contains 575 geometric matches.
+[01:36:23.059190][info] 	- image pair (1403141592, 1437920077) contains 141 geometric matches.
+[01:36:23.059190][info] 	- image pair (1403141592, 1442672628) contains 663 geometric matches.
+[01:36:23.059190][info] 	- image pair (1403141592, 1486227816) contains 710 geometric matches.
+[01:36:23.059190][info] 	- image pair (1403141592, 1547453566) contains 168 geometric matches.
+[01:36:23.059190][info] 	- image pair (1403141592, 1676500074) contains 63 geometric matches.
+[01:36:23.059190][info] 	- image pair (1437920077, 1442672628) contains 113 geometric matches.
+[01:36:23.059190][info] 	- image pair (1437920077, 1486227816) contains 240 geometric matches.
+[01:36:23.060190][info] 	- image pair (1437920077, 1547453566) contains 986 geometric matches.
+[01:36:23.060190][info] 	- image pair (1437920077, 1676500074) contains 212 geometric matches.
+[01:36:23.060190][info] 	- image pair (1437920077, 1757274528) contains 84 geometric matches.
+[01:36:23.060190][info] 	- image pair (1437920077, 1772891979) contains 242 geometric matches.
+[01:36:23.060190][info] 	- image pair (1437920077, 1894999866) contains 58 geometric matches.
+[01:36:23.060190][info] 	- image pair (1437920077, 1897946761) contains 54 geometric matches.
+[01:36:23.060190][info] 	- image pair (1442672628, 1486227816) contains 482 geometric matches.
+[01:36:23.060190][info] 	- image pair (1442672628, 1547453566) contains 85 geometric matches.
+[01:36:23.060190][info] 	- image pair (1442672628, 1676500074) contains 55 geometric matches.
+[01:36:23.060190][info] 	- image pair (1442672628, 1772891979) contains 53 geometric matches.
+[01:36:23.060190][info] 	- image pair (1486227816, 1547453566) contains 272 geometric matches.
+[01:36:23.060190][info] 	- image pair (1486227816, 1676500074) contains 58 geometric matches.
+[01:36:23.060190][info] 	- image pair (1486227816, 1772891979) contains 84 geometric matches.
+[01:36:23.060190][info] 	- image pair (1488872754, 1513348680) contains 56 geometric matches.
+[01:36:23.060190][info] 	- image pair (1488872754, 1597138438) contains 178 geometric matches.
+[01:36:23.060190][info] 	- image pair (1488872754, 1704613598) contains 267 geometric matches.
+[01:36:23.060190][info] 	- image pair (1488872754, 1838167405) contains 315 geometric matches.
+[01:36:23.060190][info] 	- image pair (1488872754, 1863203546) contains 55 geometric matches.
+[01:36:23.060190][info] 	- image pair (1488872754, 1893867912) contains 201 geometric matches.
+[01:36:23.060190][info] 	- image pair (1488872754, 2055436659) contains 73 geometric matches.
+[01:36:23.060190][info] 	- image pair (1513348680, 1768137885) contains 168 geometric matches.
+[01:36:23.060190][info] 	- image pair (1513348680, 1838167405) contains 90 geometric matches.
+[01:36:23.060190][info] 	- image pair (1513348680, 1893867912) contains 118 geometric matches.
+[01:36:23.060190][info] 	- image pair (1513348680, 2055436659) contains 400 geometric matches.
+[01:36:23.060190][info] 	- image pair (1547453566, 1676500074) contains 176 geometric matches.
+[01:36:23.060190][info] 	- image pair (1547453566, 1757274528) contains 65 geometric matches.
+[01:36:23.060190][info] 	- image pair (1547453566, 1772891979) contains 207 geometric matches.
+[01:36:23.060190][info] 	- image pair (1547453566, 1894999866) contains 57 geometric matches.
+[01:36:23.060190][info] 	- image pair (1597138438, 1704613598) contains 275 geometric matches.
+[01:36:23.060190][info] 	- image pair (1597138438, 1838167405) contains 136 geometric matches.
+[01:36:23.060190][info] 	- image pair (1597138438, 1863203546) contains 132 geometric matches.
+[01:36:23.060190][info] 	- image pair (1597138438, 1893867912) contains 90 geometric matches.
+[01:36:23.060190][info] 	- image pair (1676500074, 1757274528) contains 477 geometric matches.
+[01:36:23.060190][info] 	- image pair (1676500074, 1768137885) contains 52 geometric matches.
+[01:36:23.060190][info] 	- image pair (1676500074, 1772891979) contains 623 geometric matches.
+[01:36:23.060190][info] 	- image pair (1676500074, 1894999866) contains 323 geometric matches.
+[01:36:23.060190][info] 	- image pair (1676500074, 1897946761) contains 252 geometric matches.
+[01:36:23.060190][info] Grid filtering
+[01:36:23.067190][info] After grid filtering:
+[01:36:23.067190][info] 	- image pair (1009773410, 1034156287) contains 265 geometric matches.
+[01:36:23.067190][info] 	- image pair (1009773410, 1048071823) contains 62 geometric matches.
+[01:36:23.067190][info] 	- image pair (1009773410, 1140932673) contains 183 geometric matches.
+[01:36:23.067190][info] 	- image pair (1009773410, 1199642573) contains 68 geometric matches.
+[01:36:23.067190][info] 	- image pair (1009773410, 1292321729) contains 111 geometric matches.
+[01:36:23.067190][info] 	- image pair (1009773410, 1488872754) contains 342 geometric matches.
+[01:36:23.067190][info] 	- image pair (1009773410, 1513348680) contains 93 geometric matches.
+[01:36:23.067190][info] 	- image pair (1009773410, 1597138438) contains 135 geometric matches.
+[01:36:23.067190][info] 	- image pair (1009773410, 1704613598) contains 214 geometric matches.
+[01:36:23.067190][info] 	- image pair (1009773410, 1838167405) contains 426 geometric matches.
+[01:36:23.067190][info] 	- image pair (1009773410, 1893867912) contains 282 geometric matches.
+[01:36:23.067190][info] 	- image pair (1009773410, 2055436659) contains 105 geometric matches.
+[01:36:23.067190][info] 	- image pair (1034156287, 1140932673) contains 131 geometric matches.
+[01:36:23.067190][info] 	- image pair (1034156287, 1199642573) contains 105 geometric matches.
+[01:36:23.067190][info] 	- image pair (1034156287, 1292321729) contains 158 geometric matches.
+[01:36:23.067190][info] 	- image pair (1034156287, 1488872754) contains 358 geometric matches.
+[01:36:23.067190][info] 	- image pair (1034156287, 1513348680) contains 52 geometric matches.
+[01:36:23.067190][info] 	- image pair (1034156287, 1597138438) contains 207 geometric matches.
+[01:36:23.067190][info] 	- image pair (1034156287, 1704613598) contains 297 geometric matches.
+[01:36:23.067190][info] 	- image pair (1034156287, 1838167405) contains 254 geometric matches.
+[01:36:23.067190][info] 	- image pair (1034156287, 1863203546) contains 60 geometric matches.
+[01:36:23.067190][info] 	- image pair (1034156287, 1893867912) contains 163 geometric matches.
+[01:36:23.067190][info] 	- image pair (1034156287, 2055436659) contains 55 geometric matches.
+[01:36:23.067190][info] 	- image pair (1048071823, 1140932673) contains 190 geometric matches.
+[01:36:23.067190][info] 	- image pair (1048071823, 1375514710) contains 137 geometric matches.
+[01:36:23.067190][info] 	- image pair (1048071823, 1386020826) contains 291 geometric matches.
+[01:36:23.067190][info] 	- image pair (1048071823, 1386952078) contains 69 geometric matches.
+[01:36:23.067190][info] 	- image pair (1048071823, 1513348680) contains 574 geometric matches.
+[01:36:23.067190][info] 	- image pair (1048071823, 1768137885) contains 255 geometric matches.
+[01:36:23.067190][info] 	- image pair (1048071823, 1838167405) contains 71 geometric matches.
+[01:36:23.067190][info] 	- image pair (1048071823, 1893867912) contains 78 geometric matches.
+[01:36:23.067190][info] 	- image pair (1048071823, 1897946761) contains 61 geometric matches.
+[01:36:23.067190][info] 	- image pair (1048071823, 2055436659) contains 300 geometric matches.
+[01:36:23.067190][info] 	- image pair (1140932673, 1386020826) contains 67 geometric matches.
+[01:36:23.067190][info] 	- image pair (1140932673, 1488872754) contains 125 geometric matches.
+[01:36:23.067190][info] 	- image pair (1140932673, 1513348680) contains 243 geometric matches.
+[01:36:23.067190][info] 	- image pair (1140932673, 1704613598) contains 90 geometric matches.
+[01:36:23.067190][info] 	- image pair (1140932673, 1768137885) contains 57 geometric matches.
+[01:36:23.067190][info] 	- image pair (1140932673, 1838167405) contains 210 geometric matches.
+[01:36:23.067190][info] 	- image pair (1140932673, 1893867912) contains 263 geometric matches.
+[01:36:23.067190][info] 	- image pair (1140932673, 2055436659) contains 299 geometric matches.
+[01:36:23.067190][info] 	- image pair (1199642573, 1292321729) contains 257 geometric matches.
+[01:36:23.067190][info] 	- image pair (1199642573, 1488872754) contains 90 geometric matches.
+[01:36:23.067190][info] 	- image pair (1199642573, 1597138438) contains 204 geometric matches.
+[01:36:23.067190][info] 	- image pair (1199642573, 1704613598) contains 158 geometric matches.
+[01:36:23.067190][info] 	- image pair (1199642573, 1838167405) contains 63 geometric matches.
+[01:36:23.067190][info] 	- image pair (1199642573, 1863203546) contains 167 geometric matches.
+[01:36:23.067190][info] 	- image pair (1199642573, 1955067201) contains 62 geometric matches.
+[01:36:23.067190][info] 	- image pair (1292321729, 1488872754) contains 146 geometric matches.
+[01:36:23.068190][info] 	- image pair (1292321729, 1597138438) contains 301 geometric matches.
+[01:36:23.068190][info] 	- image pair (1292321729, 1704613598) contains 245 geometric matches.
+[01:36:23.068190][info] 	- image pair (1292321729, 1838167405) contains 108 geometric matches.
+[01:36:23.068190][info] 	- image pair (1292321729, 1863203546) contains 184 geometric matches.
+[01:36:23.068190][info] 	- image pair (1292321729, 1893867912) contains 86 geometric matches.
+[01:36:23.068190][info] 	- image pair (1302487967, 1336079149) contains 58 geometric matches.
+[01:36:23.068190][info] 	- image pair (1302487967, 1403141592) contains 441 geometric matches.
+[01:36:23.068190][info] 	- image pair (1302487967, 1437920077) contains 339 geometric matches.
+[01:36:23.068190][info] 	- image pair (1302487967, 1442672628) contains 350 geometric matches.
+[01:36:23.068190][info] 	- image pair (1302487967, 1486227816) contains 699 geometric matches.
+[01:36:23.068190][info] 	- image pair (1302487967, 1547453566) contains 378 geometric matches.
+[01:36:23.068190][info] 	- image pair (1302487967, 1676500074) contains 98 geometric matches.
+[01:36:23.068190][info] 	- image pair (1302487967, 1772891979) contains 109 geometric matches.
+[01:36:23.068190][info] 	- image pair (1336079149, 1375514710) contains 162 geometric matches.
+[01:36:23.068190][info] 	- image pair (1336079149, 1386020826) contains 71 geometric matches.
+[01:36:23.068190][info] 	- image pair (1336079149, 1386952078) contains 235 geometric matches.
+[01:36:23.068190][info] 	- image pair (1336079149, 1437920077) contains 123 geometric matches.
+[01:36:23.068190][info] 	- image pair (1336079149, 1547453566) contains 103 geometric matches.
+[01:36:23.068190][info] 	- image pair (1336079149, 1676500074) contains 593 geometric matches.
+[01:36:23.068190][info] 	- image pair (1336079149, 1757274528) contains 832 geometric matches.
+[01:36:23.068190][info] 	- image pair (1336079149, 1768137885) contains 76 geometric matches.
+[01:36:23.068190][info] 	- image pair (1336079149, 1772891979) contains 448 geometric matches.
+[01:36:23.068190][info] 	- image pair (1336079149, 1894999866) contains 480 geometric matches.
+[01:36:23.068190][info] 	- image pair (1336079149, 1897946761) contains 365 geometric matches.
+[01:36:23.068190][info] 	- image pair (1375514710, 1386020826) contains 387 geometric matches.
+[01:36:23.068190][info] 	- image pair (1375514710, 1386952078) contains 531 geometric matches.
+[01:36:23.068190][info] 	- image pair (1375514710, 1513348680) contains 80 geometric matches.
+[01:36:23.068190][info] 	- image pair (1375514710, 1676500074) contains 103 geometric matches.
+[01:36:23.068190][info] 	- image pair (1375514710, 1757274528) contains 200 geometric matches.
+[01:36:23.068190][info] 	- image pair (1375514710, 1768137885) contains 397 geometric matches.
+[01:36:23.068190][info] 	- image pair (1375514710, 1772891979) contains 89 geometric matches.
+[01:36:23.068190][info] 	- image pair (1375514710, 1894999866) contains 278 geometric matches.
+[01:36:23.068190][info] 	- image pair (1375514710, 1897946761) contains 399 geometric matches.
+[01:36:23.068190][info] 	- image pair (1386020826, 1386952078) contains 230 geometric matches.
+[01:36:23.068190][info] 	- image pair (1386020826, 1513348680) contains 209 geometric matches.
+[01:36:23.068190][info] 	- image pair (1386020826, 1757274528) contains 101 geometric matches.
+[01:36:23.068190][info] 	- image pair (1386020826, 1768137885) contains 817 geometric matches.
+[01:36:23.068190][info] 	- image pair (1386020826, 1894999866) contains 148 geometric matches.
+[01:36:23.068190][info] 	- image pair (1386020826, 1897946761) contains 167 geometric matches.
+[01:36:23.068190][info] 	- image pair (1386020826, 2055436659) contains 104 geometric matches.
+[01:36:23.068190][info] 	- image pair (1386952078, 1676500074) contains 153 geometric matches.
+[01:36:23.068190][info] 	- image pair (1386952078, 1757274528) contains 274 geometric matches.
+[01:36:23.068190][info] 	- image pair (1386952078, 1768137885) contains 253 geometric matches.
+[01:36:23.068190][info] 	- image pair (1386952078, 1772891979) contains 116 geometric matches.
+[01:36:23.068190][info] 	- image pair (1386952078, 1894999866) contains 397 geometric matches.
+[01:36:23.068190][info] 	- image pair (1386952078, 1897946761) contains 575 geometric matches.
+[01:36:23.068190][info] 	- image pair (1403141592, 1437920077) contains 141 geometric matches.
+[01:36:23.068190][info] 	- image pair (1403141592, 1442672628) contains 663 geometric matches.
+[01:36:23.068190][info] 	- image pair (1403141592, 1486227816) contains 710 geometric matches.
+[01:36:23.068190][info] 	- image pair (1403141592, 1547453566) contains 168 geometric matches.
+[01:36:23.068190][info] 	- image pair (1403141592, 1676500074) contains 63 geometric matches.
+[01:36:23.068190][info] 	- image pair (1437920077, 1442672628) contains 113 geometric matches.
+[01:36:23.068190][info] 	- image pair (1437920077, 1486227816) contains 240 geometric matches.
+[01:36:23.068190][info] 	- image pair (1437920077, 1547453566) contains 986 geometric matches.
+[01:36:23.068190][info] 	- image pair (1437920077, 1676500074) contains 212 geometric matches.
+[01:36:23.068190][info] 	- image pair (1437920077, 1757274528) contains 84 geometric matches.
+[01:36:23.068190][info] 	- image pair (1437920077, 1772891979) contains 242 geometric matches.
+[01:36:23.068190][info] 	- image pair (1437920077, 1894999866) contains 58 geometric matches.
+[01:36:23.068190][info] 	- image pair (1437920077, 1897946761) contains 54 geometric matches.
+[01:36:23.068190][info] 	- image pair (1442672628, 1486227816) contains 482 geometric matches.
+[01:36:23.068190][info] 	- image pair (1442672628, 1547453566) contains 85 geometric matches.
+[01:36:23.068190][info] 	- image pair (1442672628, 1676500074) contains 55 geometric matches.
+[01:36:23.068190][info] 	- image pair (1442672628, 1772891979) contains 53 geometric matches.
+[01:36:23.068190][info] 	- image pair (1486227816, 1547453566) contains 272 geometric matches.
+[01:36:23.068190][info] 	- image pair (1486227816, 1676500074) contains 58 geometric matches.
+[01:36:23.068190][info] 	- image pair (1486227816, 1772891979) contains 84 geometric matches.
+[01:36:23.068190][info] 	- image pair (1488872754, 1513348680) contains 56 geometric matches.
+[01:36:23.068190][info] 	- image pair (1488872754, 1597138438) contains 178 geometric matches.
+[01:36:23.068190][info] 	- image pair (1488872754, 1704613598) contains 267 geometric matches.
+[01:36:23.068190][info] 	- image pair (1488872754, 1838167405) contains 315 geometric matches.
+[01:36:23.068190][info] 	- image pair (1488872754, 1863203546) contains 55 geometric matches.
+[01:36:23.068190][info] 	- image pair (1488872754, 1893867912) contains 201 geometric matches.
+[01:36:23.068190][info] 	- image pair (1488872754, 2055436659) contains 73 geometric matches.
+[01:36:23.068190][info] 	- image pair (1513348680, 1768137885) contains 168 geometric matches.
+[01:36:23.068190][info] 	- image pair (1513348680, 1838167405) contains 90 geometric matches.
+[01:36:23.068190][info] 	- image pair (1513348680, 1893867912) contains 118 geometric matches.
+[01:36:23.068190][info] 	- image pair (1513348680, 2055436659) contains 400 geometric matches.
+[01:36:23.068190][info] 	- image pair (1547453566, 1676500074) contains 176 geometric matches.
+[01:36:23.068190][info] 	- image pair (1547453566, 1757274528) contains 65 geometric matches.
+[01:36:23.068190][info] 	- image pair (1547453566, 1772891979) contains 207 geometric matches.
+[01:36:23.068190][info] 	- image pair (1547453566, 1894999866) contains 57 geometric matches.
+[01:36:23.068190][info] 	- image pair (1597138438, 1704613598) contains 275 geometric matches.
+[01:36:23.068190][info] 	- image pair (1597138438, 1838167405) contains 136 geometric matches.
+[01:36:23.068190][info] 	- image pair (1597138438, 1863203546) contains 132 geometric matches.
+[01:36:23.068190][info] 	- image pair (1597138438, 1893867912) contains 90 geometric matches.
+[01:36:23.068190][info] 	- image pair (1676500074, 1757274528) contains 477 geometric matches.
+[01:36:23.068190][info] 	- image pair (1676500074, 1768137885) contains 52 geometric matches.
+[01:36:23.068190][info] 	- image pair (1676500074, 1772891979) contains 623 geometric matches.
+[01:36:23.068190][info] 	- image pair (1676500074, 1894999866) contains 323 geometric matches.
+[01:36:23.068190][info] 	- image pair (1676500074, 1897946761) contains 252 geometric matches.
+[01:36:23.068190][info] Save geometric matches.
+[01:36:23.106190][info] Task done in (s): 1.151000

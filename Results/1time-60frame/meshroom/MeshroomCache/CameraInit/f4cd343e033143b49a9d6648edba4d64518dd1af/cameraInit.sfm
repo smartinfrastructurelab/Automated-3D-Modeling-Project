@@ -1,0 +1,2426 @@
+{
+    "version": [
+        "1",
+        "0",
+        "0"
+    ],
+    "views": [
+        {
+            "viewId": "4006058",
+            "poseId": "4006058",
+            "intrinsicId": "3012713750",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-4.jpg",
+            "width": "320",
+            "height": "1030",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "5835329",
+            "poseId": "5835329",
+            "intrinsicId": "715736883",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-61.jpg",
+            "width": "597",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "12228052",
+            "poseId": "12228052",
+            "intrinsicId": "3802926754",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-75.jpg",
+            "width": "419",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "26080133",
+            "poseId": "26080133",
+            "intrinsicId": "2743446634",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-48.jpg",
+            "width": "579",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "56196414",
+            "poseId": "56196414",
+            "intrinsicId": "101094332",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-44.jpg",
+            "width": "558",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "113520855",
+            "poseId": "113520855",
+            "intrinsicId": "433230114",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-8.jpg",
+            "width": "388",
+            "height": "1008",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "156896273",
+            "poseId": "156896273",
+            "intrinsicId": "101094332",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-62.jpg",
+            "width": "558",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "163342845",
+            "poseId": "163342845",
+            "intrinsicId": "452522716",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-54.jpg",
+            "width": "612",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "177266985",
+            "poseId": "177266985",
+            "intrinsicId": "675744152",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-74.jpg",
+            "width": "456",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "218971413",
+            "poseId": "218971413",
+            "intrinsicId": "3729716346",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-46.jpg",
+            "width": "570",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "252164762",
+            "poseId": "252164762",
+            "intrinsicId": "1556688007",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-37.jpg",
+            "width": "519",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "263469142",
+            "poseId": "263469142",
+            "intrinsicId": "120864258",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-22.jpg",
+            "width": "429",
+            "height": "1058",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "263598239",
+            "poseId": "263598239",
+            "intrinsicId": "2050685790",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-43.jpg",
+            "width": "555",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "288864958",
+            "poseId": "288864958",
+            "intrinsicId": "452522716",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-65.jpg",
+            "width": "612",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "302244305",
+            "poseId": "302244305",
+            "intrinsicId": "2050685790",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-57.jpg",
+            "width": "555",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "395914196",
+            "poseId": "395914196",
+            "intrinsicId": "873275616",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-21.jpg",
+            "width": "426",
+            "height": "1044",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "503898829",
+            "poseId": "503898829",
+            "intrinsicId": "233792459",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-23.jpg",
+            "width": "450",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "550651474",
+            "poseId": "550651474",
+            "intrinsicId": "3729716346",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-42.jpg",
+            "width": "570",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "587410873",
+            "poseId": "587410873",
+            "intrinsicId": "1459548575",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-38.jpg",
+            "width": "501",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "590445685",
+            "poseId": "590445685",
+            "intrinsicId": "2467946312",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-15.jpg",
+            "width": "387",
+            "height": "1016",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "672191495",
+            "poseId": "672191495",
+            "intrinsicId": "3094721276",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-36.jpg",
+            "width": "522",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "704993788",
+            "poseId": "704993788",
+            "intrinsicId": "2064120436",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-39.jpg",
+            "width": "525",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "710202055",
+            "poseId": "710202055",
+            "intrinsicId": "3361041523",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-28.jpg",
+            "width": "468",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "723561013",
+            "poseId": "723561013",
+            "intrinsicId": "1983122847",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-72.jpg",
+            "width": "511",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "741873699",
+            "poseId": "741873699",
+            "intrinsicId": "2333110469",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-3.jpg",
+            "width": "283",
+            "height": "995",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "865425758",
+            "poseId": "865425758",
+            "intrinsicId": "1454275266",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-17.jpg",
+            "width": "441",
+            "height": "1035",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "949647164",
+            "poseId": "949647164",
+            "intrinsicId": "3425581030",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-1.jpg",
+            "width": "247",
+            "height": "996",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1001621905",
+            "poseId": "1001621905",
+            "intrinsicId": "3687188355",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-51.jpg",
+            "width": "639",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1004938545",
+            "poseId": "1004938545",
+            "intrinsicId": "1887949206",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-26.jpg",
+            "width": "474",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1009773410",
+            "poseId": "1009773410",
+            "intrinsicId": "3706099828",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-12.jpg",
+            "width": "438",
+            "height": "1035",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1023150364",
+            "poseId": "1023150364",
+            "intrinsicId": "1312183050",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-63.jpg",
+            "width": "642",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1029209974",
+            "poseId": "1029209974",
+            "intrinsicId": "392257898",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-53.jpg",
+            "width": "594",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1034156287",
+            "poseId": "1034156287",
+            "intrinsicId": "1771974251",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-10.jpg",
+            "width": "390",
+            "height": "976",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1048071823",
+            "poseId": "1048071823",
+            "intrinsicId": "3557182109",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-20.jpg",
+            "width": "453",
+            "height": "1061",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1140932673",
+            "poseId": "1140932673",
+            "intrinsicId": "2675853309",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-16.jpg",
+            "width": "414",
+            "height": "1057",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1199642573",
+            "poseId": "1199642573",
+            "intrinsicId": "3945051815",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-5.jpg",
+            "width": "343",
+            "height": "967",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1264119776",
+            "poseId": "1264119776",
+            "intrinsicId": "42874296",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-70.jpg",
+            "width": "556",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1292321729",
+            "poseId": "1292321729",
+            "intrinsicId": "158914100",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-6.jpg",
+            "width": "354",
+            "height": "942",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1302487967",
+            "poseId": "1302487967",
+            "intrinsicId": "2086688688",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-45.jpg",
+            "width": "606",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1336079149",
+            "poseId": "1336079149",
+            "intrinsicId": "3008235201",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-33.jpg",
+            "width": "504",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1357345683",
+            "poseId": "1357345683",
+            "intrinsicId": "523059599",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-69.jpg",
+            "width": "588",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1359686563",
+            "poseId": "1359686563",
+            "intrinsicId": "2427403539",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-71.jpg",
+            "width": "527",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1375514710",
+            "poseId": "1375514710",
+            "intrinsicId": "233792459",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-27.jpg",
+            "width": "450",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1379510503",
+            "poseId": "1379510503",
+            "intrinsicId": "2190565930",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-59.jpg",
+            "width": "537",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1386020826",
+            "poseId": "1386020826",
+            "intrinsicId": "675744152",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-24.jpg",
+            "width": "456",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1386952078",
+            "poseId": "1386952078",
+            "intrinsicId": "3361041523",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-29.jpg",
+            "width": "468",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1403141592",
+            "poseId": "1403141592",
+            "intrinsicId": "3732143826",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-49.jpg",
+            "width": "621",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1437920077",
+            "poseId": "1437920077",
+            "intrinsicId": "2947251420",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-40.jpg",
+            "width": "546",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1442672628",
+            "poseId": "1442672628",
+            "intrinsicId": "4196975807",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-50.jpg",
+            "width": "627",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1486227816",
+            "poseId": "1486227816",
+            "intrinsicId": "158937563",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-47.jpg",
+            "width": "573",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1486347209",
+            "poseId": "1486347209",
+            "intrinsicId": "3732143826",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-64.jpg",
+            "width": "621",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1488872754",
+            "poseId": "1488872754",
+            "intrinsicId": "1367160600",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-11.jpg",
+            "width": "387",
+            "height": "888",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1513348680",
+            "poseId": "1513348680",
+            "intrinsicId": "3717621884",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-19.jpg",
+            "width": "444",
+            "height": "1051",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1547453566",
+            "poseId": "1547453566",
+            "intrinsicId": "3751567678",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-41.jpg",
+            "width": "528",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1577899600",
+            "poseId": "1577899600",
+            "intrinsicId": "1682016001",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-66.jpg",
+            "width": "660",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1597138438",
+            "poseId": "1597138438",
+            "intrinsicId": "399101289",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-7.jpg",
+            "width": "351",
+            "height": "972",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1619433210",
+            "poseId": "1619433210",
+            "intrinsicId": "1988328148",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-55.jpg",
+            "width": "582",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1620293563",
+            "poseId": "1620293563",
+            "intrinsicId": "392257898",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-67.jpg",
+            "width": "594",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1676500074",
+            "poseId": "1676500074",
+            "intrinsicId": "2064120436",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-34.jpg",
+            "width": "525",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1686609582",
+            "poseId": "1686609582",
+            "intrinsicId": "523059599",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-58.jpg",
+            "width": "588",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1704613598",
+            "poseId": "1704613598",
+            "intrinsicId": "28247367",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-9.jpg",
+            "width": "422",
+            "height": "1033",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1756966558",
+            "poseId": "1756966558",
+            "intrinsicId": "2507614199",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-76.jpg",
+            "width": "166",
+            "height": "1037",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1757274528",
+            "poseId": "1757274528",
+            "intrinsicId": "3096959117",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-32.jpg",
+            "width": "510",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1768137885",
+            "poseId": "1768137885",
+            "intrinsicId": "156140740",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-25.jpg",
+            "width": "462",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1772891979",
+            "poseId": "1772891979",
+            "intrinsicId": "1945735076",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-35.jpg",
+            "width": "486",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1838167405",
+            "poseId": "1838167405",
+            "intrinsicId": "938153509",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-13.jpg",
+            "width": "477",
+            "height": "1032",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1863203546",
+            "poseId": "1863203546",
+            "intrinsicId": "1122872639",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-2.jpg",
+            "width": "265",
+            "height": "960",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1880922669",
+            "poseId": "1880922669",
+            "intrinsicId": "3729716346",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-52.jpg",
+            "width": "570",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1893867912",
+            "poseId": "1893867912",
+            "intrinsicId": "1789416294",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-14.jpg",
+            "width": "432",
+            "height": "991",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1894999866",
+            "poseId": "1894999866",
+            "intrinsicId": "423372920",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-31.jpg",
+            "width": "513",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1897946761",
+            "poseId": "1897946761",
+            "intrinsicId": "1459548575",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-30.jpg",
+            "width": "501",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1921974468",
+            "poseId": "1921974468",
+            "intrinsicId": "2015092591",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-60.jpg",
+            "width": "615",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1955067201",
+            "poseId": "1955067201",
+            "intrinsicId": "1582598138",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-0.jpg",
+            "width": "153",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1994239242",
+            "poseId": "1994239242",
+            "intrinsicId": "1753161413",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-68.jpg",
+            "width": "596",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "2044755424",
+            "poseId": "2044755424",
+            "intrinsicId": "329879453",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-73.jpg",
+            "width": "454",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "2055436659",
+            "poseId": "2055436659",
+            "intrinsicId": "2784460884",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-18.jpg",
+            "width": "411",
+            "height": "999",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "2116623478",
+            "poseId": "2116623478",
+            "intrinsicId": "2015092591",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images\/1-56.jpg",
+            "width": "615",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        }
+    ],
+    "intrinsics": [
+        {
+            "intrinsicId": "28247367",
+            "width": "422",
+            "height": "1033",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1246.9413049657035",
+            "principalPoint": [
+                "211",
+                "516.5"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "42874296",
+            "width": "556",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1303.6753236814714",
+            "principalPoint": [
+                "278",
+                "540"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "101094332",
+            "width": "558",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1303.6753236814714",
+            "principalPoint": [
+                "279",
+                "540"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "120864258",
+            "width": "429",
+            "height": "1058",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1277.1189744953672",
+            "principalPoint": [
+                "214.5",
+                "529"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "156140740",
+            "width": "462",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1303.6753236814714",
+            "principalPoint": [
+                "231",
+                "540"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "158914100",
+            "width": "354",
+            "height": "942",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1137.0945878777277",
+            "principalPoint": [
+                "177",
+                "471"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "158937563",
+            "width": "573",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1303.6753236814714",
+            "principalPoint": [
+                "286.5",
+                "540"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "233792459",
+            "width": "450",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1303.6753236814714",
+            "principalPoint": [
+                "225",
+                "540"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "329879453",
+            "width": "454",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1303.6753236814714",
+            "principalPoint": [
+                "227",
+                "540"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "392257898",
+            "width": "594",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1303.6753236814714",
+            "principalPoint": [
+                "297",
+                "540"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "399101289",
+            "width": "351",
+            "height": "972",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1173.3077913133241",
+            "principalPoint": [
+                "175.5",
+                "486"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "423372920",
+            "width": "513",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1303.6753236814714",
+            "principalPoint": [
+                "256.5",
+                "540"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "433230114",
+            "width": "388",
+            "height": "1008",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1216.7636354360397",
+            "principalPoint": [
+                "194",
+                "504"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "452522716",
+            "width": "612",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1303.6753236814714",
+            "principalPoint": [
+                "306",
+                "540"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "523059599",
+            "width": "588",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1303.6753236814714",
+            "principalPoint": [
+                "294",
+                "540"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "675744152",
+            "width": "456",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1303.6753236814714",
+            "principalPoint": [
+                "228",
+                "540"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "715736883",
+            "width": "597",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1303.6753236814714",
+            "principalPoint": [
+                "298.5",
+                "540"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "873275616",
+            "width": "426",
+            "height": "1044",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1260.2194795587554",
+            "principalPoint": [
+                "213",
+                "522"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "938153509",
+            "width": "477",
+            "height": "1032",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1245.734198184517",
+            "principalPoint": [
+                "238.5",
+                "516"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "1122872639",
+            "width": "265",
+            "height": "960",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1158.8225099390856",
+            "principalPoint": [
+                "132.5",
+                "480"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "1312183050",
+            "width": "642",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1303.6753236814714",
+            "principalPoint": [
+                "321",
+                "540"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "1367160600",
+            "width": "387",
+            "height": "888",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1071.910821693654",
+            "principalPoint": [
+                "193.5",
+                "444"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "1454275266",
+            "width": "441",
+            "height": "1035",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1249.3555185280766",
+            "principalPoint": [
+                "220.5",
+                "517.5"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "1459548575",
+            "width": "501",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1303.6753236814714",
+            "principalPoint": [
+                "250.5",
+                "540"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "1556688007",
+            "width": "519",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1303.6753236814714",
+            "principalPoint": [
+                "259.5",
+                "540"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "1582598138",
+            "width": "153",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1303.6753236814714",
+            "principalPoint": [
+                "76.5",
+                "540"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "1682016001",
+            "width": "660",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1303.6753236814714",
+            "principalPoint": [
+                "330",
+                "540"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "1753161413",
+            "width": "596",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1303.6753236814714",
+            "principalPoint": [
+                "298",
+                "540"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "1771974251",
+            "width": "390",
+            "height": "976",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1178.1362184380703",
+            "principalPoint": [
+                "195",
+                "488"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "1789416294",
+            "width": "432",
+            "height": "991",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1196.2428201558685",
+            "principalPoint": [
+                "216",
+                "495.5"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "1887949206",
+            "width": "474",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1303.6753236814714",
+            "principalPoint": [
+                "237",
+                "540"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "1945735076",
+            "width": "486",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1303.6753236814714",
+            "principalPoint": [
+                "243",
+                "540"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "1983122847",
+            "width": "511",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1303.6753236814714",
+            "principalPoint": [
+                "255.5",
+                "540"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "1988328148",
+            "width": "582",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1303.6753236814714",
+            "principalPoint": [
+                "291",
+                "540"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "2015092591",
+            "width": "615",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1303.6753236814714",
+            "principalPoint": [
+                "307.5",
+                "540"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "2050685790",
+            "width": "555",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1303.6753236814714",
+            "principalPoint": [
+                "277.5",
+                "540"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "2064120436",
+            "width": "525",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1303.6753236814714",
+            "principalPoint": [
+                "262.5",
+                "540"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "2086688688",
+            "width": "606",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1303.6753236814714",
+            "principalPoint": [
+                "303",
+                "540"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "2190565930",
+            "width": "537",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1303.6753236814714",
+            "principalPoint": [
+                "268.5",
+                "540"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "2333110469",
+            "width": "283",
+            "height": "995",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1201.0712472806147",
+            "principalPoint": [
+                "141.5",
+                "497.5"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "2427403539",
+            "width": "527",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1303.6753236814714",
+            "principalPoint": [
+                "263.5",
+                "540"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "2467946312",
+            "width": "387",
+            "height": "1016",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1226.4204896855322",
+            "principalPoint": [
+                "193.5",
+                "508"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "2507614199",
+            "width": "166",
+            "height": "1037",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1251.7697320904497",
+            "principalPoint": [
+                "83",
+                "518.5"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "2675853309",
+            "width": "414",
+            "height": "1057",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1275.9118677141807",
+            "principalPoint": [
+                "207",
+                "528.5"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "2743446634",
+            "width": "579",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1303.6753236814714",
+            "principalPoint": [
+                "289.5",
+                "540"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "2784460884",
+            "width": "411",
+            "height": "999",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1205.8996744053609",
+            "principalPoint": [
+                "205.5",
+                "499.5"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "2947251420",
+            "width": "546",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1303.6753236814714",
+            "principalPoint": [
+                "273",
+                "540"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "3008235201",
+            "width": "504",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1303.6753236814714",
+            "principalPoint": [
+                "252",
+                "540"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "3012713750",
+            "width": "320",
+            "height": "1030",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1243.3199846221439",
+            "principalPoint": [
+                "160",
+                "515"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "3094721276",
+            "width": "522",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1303.6753236814714",
+            "principalPoint": [
+                "261",
+                "540"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "3096959117",
+            "width": "510",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1303.6753236814714",
+            "principalPoint": [
+                "255",
+                "540"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "3361041523",
+            "width": "468",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1303.6753236814714",
+            "principalPoint": [
+                "234",
+                "540"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "3425581030",
+            "width": "247",
+            "height": "996",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1202.2783540618013",
+            "principalPoint": [
+                "123.5",
+                "498"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "3557182109",
+            "width": "453",
+            "height": "1061",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1280.740294838927",
+            "principalPoint": [
+                "226.5",
+                "530.5"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "3687188355",
+            "width": "639",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1303.6753236814714",
+            "principalPoint": [
+                "319.5",
+                "540"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "3706099828",
+            "width": "438",
+            "height": "1035",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1249.3555185280766",
+            "principalPoint": [
+                "219",
+                "517.5"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "3717621884",
+            "width": "444",
+            "height": "1051",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1268.6692270270614",
+            "principalPoint": [
+                "222",
+                "525.5"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "3729716346",
+            "width": "570",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1303.6753236814714",
+            "principalPoint": [
+                "285",
+                "540"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "3732143826",
+            "width": "621",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1303.6753236814714",
+            "principalPoint": [
+                "310.5",
+                "540"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "3751567678",
+            "width": "528",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1303.6753236814714",
+            "principalPoint": [
+                "264",
+                "540"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "3802926754",
+            "width": "419",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1303.6753236814714",
+            "principalPoint": [
+                "209.5",
+                "540"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "3945051815",
+            "width": "343",
+            "height": "967",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1167.2722574073914",
+            "principalPoint": [
+                "171.5",
+                "483.5"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "4196975807",
+            "width": "627",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-60frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1303.6753236814714",
+            "principalPoint": [
+                "313.5",
+                "540"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        }
+    ]
+}

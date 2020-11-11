@@ -1,0 +1,18 @@
+{
+    "status": "SUCCESS",
+    "execMode": "LOCAL",
+    "nodeName": "ImageMatching_1",
+    "nodeType": "ImageMatching",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_imageMatching  --input \"D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-20frame/meshroom/MeshroomCache/CameraInit/1ff8e70153401bd94fc8996b8b68bacd72f88846/cameraInit.sfm\" --featuresFolders \"D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-20frame/meshroom/MeshroomCache/FeatureExtraction/c82ba1776a685a0010c73f42ceff2a1346ee2a9f\" --tree \"D:\\Meshroom-2019.2.0\\aliceVision\\share\\aliceVision\\vlfeat_K80L3.SIFT.tree\" --weights \"\" --minNbImages 200 --maxDescriptors 500 --nbMatches 50 --verboseLevel info --output \"D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-20frame/meshroom/MeshroomCache/ImageMatching/a44296b4ad7c9e587cba9a476d2eef543a54f300/imageMatches.txt\" ",
+    "env": null,
+    "startDateTime": "2020-07-28 01:30:22.835225",
+    "endDateTime": "2020-07-28 01:30:23.166224",
+    "elapsedTime": 0.33099865913391113,
+    "hostname": "IN-ENGR-KYUKAN1",
+    "sessionUid": "3fe73bf0-d093-11ea-b473-c8f750fb5923",
+    "returnCode": 0,
+    "elapsedTimeStr": "0:00:00.330999"
+}

@@ -1,0 +1,43 @@
+Program called with the following parameters:
+ * inputMesh = "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-20frame/meshroom/MeshroomCache/Meshing/eff1d787194557b4fb5eebc7f8c69e3dfd8256d3/mesh.obj"
+ * iterations = 5
+ * keepLargestMeshOnly = 0
+ * lambda = 1
+ * outputMesh = "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-20frame/meshroom/MeshroomCache/MeshFiltering/5ffb4a84b64e1a7d7c30a48d963200db22f98ef5/mesh.obj"
+ * removeLargeTrianglesFactor = 60
+ * verboseLevel = "info"
+
+[01:31:18.020351][info] Loading mesh from obj file: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-20frame/meshroom/MeshroomCache/Meshing/eff1d787194557b4fb5eebc7f8c69e3dfd8256d3/mesh.obj
+[01:31:18.036349][info] 	- # vertices: 18545
+	- # normals: 0
+	- # uv coordinates: 0
+	- # triangles: 36877
+[01:31:18.078352][info] Mesh loaded: 
+	- #points: 18545
+	- # triangles: 36877
+[01:31:18.078352][info] Mesh file: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-20frame/meshroom/MeshroomCache/Meshing/eff1d787194557b4fb5eebc7f8c69e3dfd8256d3/mesh.obj" loaded.
+[01:31:18.078352][info] Input mesh: 18545 vertices and 36877 facets.
+[01:31:18.080352][info] Mesh after large triangles removal: 18545 vertices and 36877 facets.
+[01:31:18.080352][info] Start mesh filtering.
+[01:31:18.161352][info] cleanMesh:
+	- # wrong points: 0
+	- # new points: 0
+[01:31:18.176351][info] Optimizing mesh smooth: 
+	- lamda: 1
+	- niters: 5
+
+[01:31:18.176351][info] Optimizing mesh smooth: iteration 0
+[01:31:18.180349][info] Optimizing mesh smooth: iteration 1
+[01:31:18.182347][info] Optimizing mesh smooth: iteration 2
+[01:31:18.184347][info] Optimizing mesh smooth: iteration 3
+[01:31:18.186348][info] Optimizing mesh smooth: iteration 4
+[01:31:18.188348][info] Mesh filtering done: 18545 vertices and 36877 facets.
+[01:31:18.188348][info] remove free points from mesh.
+Output mesh: 18545 vertices and 36877 facets.
+[01:31:18.189348][info] Save mesh.
+[01:31:18.189348][info] Save mesh to obj: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-20frame/meshroom/MeshroomCache/MeshFiltering/5ffb4a84b64e1a7d7c30a48d963200db22f98ef5/mesh.obj
+[01:31:18.189348][info] Nb points: 18545
+[01:31:18.189348][info] Nb triangles: 36877
+[01:31:18.239343][info] Save mesh to obj done.
+[01:31:18.239343][info] Mesh file: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-20frame/meshroom/MeshroomCache/MeshFiltering/5ffb4a84b64e1a7d7c30a48d963200db22f98ef5/mesh.obj" saved.
+[01:31:18.239343][info] Task done in (s): 0.219000

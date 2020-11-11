@@ -1,0 +1,114 @@
+
+pmvs2
+D:\Automated-3D-Modeling-Project\Demonstration-for-regular-meeting\7.27\1time-20frame\cmvs\cmvs.nvm.cmvs\00\
+option-0000
+--------------------------------------------------
+--- Summary of specified options ---
+# of timages: 19 (enumeration)
+# of oimages: 0 (enumeration)
+level: 1  csize: 2
+threshold: 0.7  wsize: 7
+minImageNum: 3  CPU: 16
+useVisData: 1  sequence: -1
+--------------------------------------------------
+Reading images: *******************
+01  3Harris running ... 7 8 104Harris running ... Harris running ...Harris running ...12Harris running ... 1115 14Harris running ... 13Harris running ... 16  Harris running ...Harris running ...Harris running ...17Harris running ... 18Harris running ...  20Harris running ... Harris running ...Harris running ...Harris running ...258 harris done
+DoG running...264 harris done
+219 harris done
+DoG running...DoG running...285 harris done
+DoG running...285 harris done
+DoG running...340 harris done
+DoG running...334 harris done
+DoG running...327 harris done
+DoG running...436 harris done
+DoG running...434 harris done
+DoG running...401 harris done
+DoG running...434 harris done
+DoG running...390 harris done
+DoG running...456 harris done
+DoG running...449 harris done
+DoG running...471 harris done
+DoG running...476 dog done
+21 Harris running ...319 dog done
+22 Harris running ...476 dog done
+23 Harris running ...394 dog done
+427 dog done
+544 dog done
+544 dog done
+544 dog done
+612 dog done
+195 harris done
+DoG running...271 harris done
+256 harris done
+DoG running...DoG running...677 dog done
+680 dog done
+612 dog done
+710 dog done
+680 dog done
+678 dog done
+299 dog done
+680 dog done
+372 dog done
+382 dog done
+done
+adding seeds 
+(15,19)(18,12)(16,17)(14,6)(17,10)(13,13)(9,63)(11,62)(10,59)(8,24)(4,71)(1,59)(2,69)(5,70)(0,78)(3,26)(12,46)(6,53)(7,42)done
+---- Initial: 0 secs ----
+Total pass fail0 fail1 refinepatch: 24201 1052 21746 1403 2455
+Total pass fail0 fail1 refinepatch: 100 4.34693 89.8558 5.79728 10.1442
+Expanding patches...
+---- EXPANSION: 1 secs ----
+Total pass fail0 fail1 refinepatch: 42831 26550 11920 4361 30911
+Total pass fail0 fail1 refinepatch: 100 61.9878 27.8303 10.1819 72.1697
+FilterOutside
+mainbody: 
+Gain (ave/var): 0.649536 0.374486
+27325 -> 26787 (98.0311%)	0 secs
+Filter Exact: *******************
+26787 -> 19909 (74.3234%)	0 secs
+FilterNeighbor:	19909 -> 12107 (60.8117%)	0 secs
+FilterGroups:	20
+12107 -> 8615 (71.1572%)	0 secs
+STATUS: 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 
+Expanding patches...refinePatchBFGS failed!
+
+---- EXPANSION: 1 secs ----
+Total pass fail0 fail1 refinepatch: 34383 14505 9189 10689 25194
+Total pass fail0 fail1 refinepatch: 100 42.1865 26.7254 31.088 73.2746
+FilterOutside
+mainbody: 
+Gain (ave/var): 0.808194 0.403872
+23120 -> 22991 (99.442%)	0 secs
+Filter Exact: *******************
+22991 -> 18064 (78.5699%)	0 secs
+FilterNeighbor:	18064 -> 15028 (83.1931%)	0 secs
+FilterGroups:	20
+15028 -> 13135 (87.4035%)	0 secs
+STATUS: 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 
+Expanding patches...refinePatchBFGS failed!
+refinePatchBFGS failed!
+refinePatchBFGS failed!
+
+---- EXPANSION: 1 secs ----
+Total pass fail0 fail1 refinepatch: 31707 12803 8905 9999 22802
+Total pass fail0 fail1 refinepatch: 100 40.3791 28.0853 31.5356 71.9147
+FilterOutside
+mainbody: 
+Gain (ave/var): 0.935711 0.453722
+25938 -> 25747 (99.2636%)	0 secs
+Filter Exact: *******************
+25747 -> 20144 (78.2382%)	0 secs
+FilterNeighbor:	20144 -> 17234 (85.554%)	0 secs
+FilterGroups:	20
+17234 -> 15511 (90.0023%)	0 secs
+STATUS: 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 
+---- Total: 0 secs ----

@@ -1,0 +1,18 @@
+{
+    "status": "SUCCESS",
+    "execMode": "LOCAL",
+    "nodeName": "DepthMapFilter_1",
+    "nodeType": "DepthMapFilter",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_depthMapFiltering  --input \"D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-60frame/meshroom/MeshroomCache/StructureFromMotion/1525f89206b8cfb498d0e7f076ac99d51dcc32ff/sfm.abc\" --depthMapsFolder \"D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-60frame/meshroom/MeshroomCache/DepthMap/4563fa8309c7dfcea3947129619e2bbd3e4137b6\" --minViewAngle 2.0 --maxViewAngle 70.0 --nNearestCams 10 --minNumOfConsistentCams 3 --minNumOfConsistentCamsWithLowSimilarity 4 --pixSizeBall 0 --pixSizeBallWithLowSimilarity 0 --computeNormalMaps False --verboseLevel info --output \"D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-60frame/meshroom/MeshroomCache/DepthMapFilter/7e291d2a4a0eec11b6bc47261560fe12425951f4\" --rangeStart 50 --rangeSize 10",
+    "env": null,
+    "startDateTime": "2020-07-28 02:38:18.875810",
+    "endDateTime": "2020-07-28 02:38:20.438816",
+    "elapsedTime": 1.5630056858062744,
+    "hostname": "IN-ENGR-KYUKAN1",
+    "sessionUid": "e1d7194a-d09b-11ea-9b7c-c8f750fb5923",
+    "returnCode": 0,
+    "elapsedTimeStr": "0:00:01.563006"
+}

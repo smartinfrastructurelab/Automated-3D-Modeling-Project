@@ -1,0 +1,119 @@
+Program called with the following parameters:
+ * describerPreset = "normal"
+ * describerTypes = "sift"
+ * forceCpuExtraction = 1
+ * input = "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/CameraInit/c4e14ab4d37be0e4ad238025a2bf863800206667/cameraInit.sfm"
+ * maxThreads = 0 (default)
+ * output = "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/FeatureExtraction/2fa4d659912e0383c4691bd33fad85acaaa3ca13"
+ * rangeSize = 40
+ * rangeStart = 0
+ * verboseLevel = "info"
+
+[01:36:10.345146][info] CUDA-Enabled GPU.
+Device information:
+	- id:                      0
+	- name:                    GeForce RTX 2070 SUPER
+	- compute capability:      7.5
+	- total device memory:     8192 MB 
+	- device memory available: 6690 MB 
+	- per-block shared memory: 49152
+	- warp size:               32
+	- max threads per block:   1024
+	- max threads per SM(X):   1024
+	- max block sizes:         {1024,1024,64}
+	- max grid sizes:          {2147483647,65535,65535}
+	- max 2D array texture:    {131072,65536}
+	- max 3D array texture:    {16384,16384,16384}
+	- max 2D linear texture:   {131072,65000,2097120}
+	- max 2D layered texture:  {32768,32768,2048}
+	- number of SM(x)s:        40
+	- registers per SM(x):     65536
+	- registers per block:     65536
+	- concurrent kernels:      yes
+	- mapping host memory:     yes
+	- unified addressing:      yes
+	- texture alignment:       512 byte
+	- pitch alignment:         32 byte
+
+[01:36:10.600148][info] Supported CUDA-Enabled GPU detected.
+[01:36:10.638144][info] Extracting sift features from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-1.jpg' [cpu]
+[01:36:10.645143][info] Extracting sift features from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-4.jpg' [cpu]
+[01:36:10.649143][info] Extracting sift features from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-10.jpg' [cpu]
+[01:36:10.654142][info] Extracting sift features from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-7.jpg' [cpu]
+[01:36:10.654142][info] Extracting sift features from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-40.jpg' [cpu]
+[01:36:10.659142][info] Extracting sift features from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-5.jpg' [cpu]
+[01:36:10.663143][info] Extracting sift features from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-15.jpg' [cpu]
+[01:36:10.663143][info] Extracting sift features from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-27.jpg' [cpu]
+[01:36:10.673143][info] Extracting sift features from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-28.jpg' [cpu]
+[01:36:10.674143][info] Extracting sift features from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-22.jpg' [cpu]
+[01:36:10.676144][info] Extracting sift features from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-8.jpg' [cpu]
+[01:36:10.677144][info] Extracting sift features from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-45.jpg' [cpu]
+[01:36:10.679144][info] Extracting sift features from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-47.jpg' [cpu]
+[01:36:10.680143][info] Extracting sift features from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-19.jpg' [cpu]
+[01:36:10.691144][info] Extracting sift features from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-29.jpg' [cpu]
+[01:36:10.696146][info] Extracting sift features from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-23.jpg' [cpu]
+[01:36:11.004146][info]       669 sift features extracted from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-10.jpg'
+[01:36:11.009145][info]       607 sift features extracted from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-4.jpg'
+[01:36:11.019145][info] Extracting sift features from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-20.jpg' [cpu]
+[01:36:11.024145][info] Extracting sift features from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-48.jpg' [cpu]
+[01:36:11.065144][info]       494 sift features extracted from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-1.jpg'
+[01:36:11.081146][info] Extracting sift features from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-26.jpg' [cpu]
+[01:36:11.082146][info]       531 sift features extracted from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-5.jpg'
+[01:36:11.096146][info] Extracting sift features from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-6.jpg' [cpu]
+[01:36:11.115145][info]       714 sift features extracted from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-8.jpg'
+[01:36:11.131147][info] Extracting sift features from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-46.jpg' [cpu]
+[01:36:11.171145][info]       604 sift features extracted from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-7.jpg'
+[01:36:11.171145][info]       835 sift features extracted from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-15.jpg'
+[01:36:11.192147][info] Extracting sift features from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-36.jpg' [cpu]
+[01:36:11.197146][info]       1417 sift features extracted from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-28.jpg'
+[01:36:11.205144][info]       1301 sift features extracted from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-29.jpg'
+[01:36:11.214146][info] Extracting sift features from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-34.jpg' [cpu]
+[01:36:11.215146][info] Extracting sift features from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-3.jpg' [cpu]
+[01:36:11.222145][info] Extracting sift features from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-49.jpg' [cpu]
+[01:36:11.233147][info]       1263 sift features extracted from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-19.jpg'
+[01:36:11.258146][info] Extracting sift features from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-41.jpg' [cpu]
+[01:36:11.265146][info]       1411 sift features extracted from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-23.jpg'
+[01:36:11.283146][info]       1451 sift features extracted from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-27.jpg'
+[01:36:11.296146][info]       1289 sift features extracted from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-22.jpg'
+[01:36:11.297145][info]       1691 sift features extracted from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-40.jpg'
+[01:36:11.301146][info] Extracting sift features from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-42.jpg' [cpu]
+[01:36:11.309145][info] Extracting sift features from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-24.jpg' [cpu]
+[01:36:11.326146][info] Extracting sift features from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-50.jpg' [cpu]
+[01:36:11.351148][info] Extracting sift features from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-43.jpg' [cpu]
+[01:36:11.357145][info]       1910 sift features extracted from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-47.jpg'
+[01:36:11.379151][info] Extracting sift features from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-11.jpg' [cpu]
+[01:36:11.400145][info]       1947 sift features extracted from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-45.jpg'
+[01:36:11.426146][info] Extracting sift features from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-33.jpg' [cpu]
+[01:36:11.505147][info]       1285 sift features extracted from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-20.jpg'
+[01:36:11.547145][info]       628 sift features extracted from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-3.jpg'
+[01:36:11.564149][info] Extracting sift features from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-16.jpg' [cpu]
+[01:36:11.567148][info]       1747 sift features extracted from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-48.jpg'
+[01:36:11.585146][info] Extracting sift features from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-17.jpg' [cpu]
+[01:36:11.589147][info] Extracting sift features from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-44.jpg' [cpu]
+[01:36:11.607148][info]       696 sift features extracted from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-6.jpg'
+[01:36:11.611147][info]       1342 sift features extracted from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-26.jpg'
+[01:36:11.625148][info] Extracting sift features from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-12.jpg' [cpu]
+[01:36:11.689149][info]       1615 sift features extracted from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-49.jpg'
+[01:36:11.703147][info]       2012 sift features extracted from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-46.jpg'
+[01:36:11.709149][info]       1463 sift features extracted from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-50.jpg'
+[01:36:11.726148][info] Extracting sift features from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-37.jpg' [cpu]
+[01:36:11.727147][info]       719 sift features extracted from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-11.jpg'
+[01:36:11.776148][info]       1589 sift features extracted from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-36.jpg'
+[01:36:11.780147][info]       1577 sift features extracted from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-34.jpg'
+[01:36:11.783153][info]       1607 sift features extracted from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-41.jpg'
+[01:36:11.795147][info] Extracting sift features from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-39.jpg' [cpu]
+[01:36:11.821146][info]       1370 sift features extracted from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-24.jpg'
+[01:36:11.858146][info]       1880 sift features extracted from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-42.jpg'
+[01:36:11.879148][info] Extracting sift features from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-38.jpg' [cpu]
+[01:36:11.892147][info]       720 sift features extracted from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-12.jpg'
+[01:36:11.895148][info]       887 sift features extracted from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-16.jpg'
+[01:36:11.930146][info]       965 sift features extracted from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-17.jpg'
+[01:36:11.936151][info]       1998 sift features extracted from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-43.jpg'
+[01:36:11.952147][info] Extracting sift features from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-21.jpg' [cpu]
+[01:36:11.953147][info]       1539 sift features extracted from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-33.jpg'
+[01:36:12.041147][info]       2176 sift features extracted from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-44.jpg'
+[01:36:12.122148][info]       1510 sift features extracted from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-37.jpg'
+[01:36:12.154153][info]       1565 sift features extracted from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-39.jpg'
+[01:36:12.195148][info]       1461 sift features extracted from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-38.jpg'
+[01:36:12.242148][info]       1343 sift features extracted from view 'D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/images/1-21.jpg'
+[01:36:12.243148][info] Task done in (s): 1.642000

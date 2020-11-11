@@ -1,0 +1,12 @@
+Program called with the following parameters:
+ * describerTypes = "sift,unknown"
+ * extrinsics = 1
+ * imageWhiteList =  = [] (default)
+ * input = "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-60frame/meshroom/MeshroomCache/StructureFromMotion/1525f89206b8cfb498d0e7f076ac99d51dcc32ff/sfm.abc"
+ * intrinsics = 1
+ * observations = 1
+ * output = "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-60frame/meshroom/MeshroomCache/ConvertSfMFormat/a5549b9bc5d0f673819a5dcd99a3c79c44d48deb/sfm.abc"
+ * structure = 1
+ * verboseLevel = "info"
+ * views = 1
+

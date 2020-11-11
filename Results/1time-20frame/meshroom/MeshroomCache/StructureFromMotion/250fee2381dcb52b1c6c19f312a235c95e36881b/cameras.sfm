@@ -1,0 +1,1517 @@
+{
+    "version": [
+        "1",
+        "0",
+        "0"
+    ],
+    "featuresFolders": [
+        "..\\..\\FeatureExtraction\\c82ba1776a685a0010c73f42ceff2a1346ee2a9f"
+    ],
+    "matchesFolders": [
+        "..\\..\\FeatureMatching\\9e922c96a06a17ed47d167f8c783493d84f84e61"
+    ],
+    "views": [
+        {
+            "viewId": "4006058",
+            "poseId": "4006058",
+            "intrinsicId": "1533183868",
+            "resectionId": "0",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images\/1-4.jpg",
+            "width": "387",
+            "height": "1016",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "113520855",
+            "poseId": "113520855",
+            "intrinsicId": "4287173726",
+            "resectionId": "6",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images\/1-8.jpg",
+            "width": "450",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "263469142",
+            "poseId": "263469142",
+            "intrinsicId": "1521899294",
+            "resectionId": "20",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images\/1-22.jpg",
+            "width": "588",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "395914196",
+            "poseId": "395914196",
+            "intrinsicId": "3403011922",
+            "resectionId": "19",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images\/1-21.jpg",
+            "width": "660",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "503898829",
+            "poseId": "503898829",
+            "intrinsicId": "1302641676",
+            "resectionId": "21",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images\/1-23.jpg",
+            "width": "511",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "590445685",
+            "poseId": "590445685",
+            "intrinsicId": "554073927",
+            "resectionId": "13",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images\/1-15.jpg",
+            "width": "579",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "741873699",
+            "poseId": "741873699",
+            "intrinsicId": "1829804955",
+            "resectionId": "1",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images\/1-3.jpg",
+            "width": "438",
+            "height": "1035",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "865425758",
+            "poseId": "865425758",
+            "intrinsicId": "1838307193",
+            "resectionId": "15",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images\/1-17.jpg",
+            "width": "612",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "949647164",
+            "poseId": "949647164",
+            "intrinsicId": "2891749819",
+            "resectionId": "2",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images\/1-1.jpg",
+            "width": "354",
+            "height": "942",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1009773410",
+            "poseId": "1009773410",
+            "intrinsicId": "1059811329",
+            "resectionId": "10",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images\/1-12.jpg",
+            "width": "525",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1034156287",
+            "poseId": "1034156287",
+            "intrinsicId": "674431781",
+            "resectionId": "8",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images\/1-10.jpg",
+            "width": "504",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1048071823",
+            "poseId": "1048071823",
+            "intrinsicId": "4123327582",
+            "resectionId": "18",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images\/1-20.jpg",
+            "width": "642",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1140932673",
+            "poseId": "1140932673",
+            "intrinsicId": "1736385995",
+            "resectionId": "14",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images\/1-16.jpg",
+            "width": "639",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1199642573",
+            "poseId": "1199642573",
+            "intrinsicId": "584156254",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images\/1-5.jpg",
+            "width": "411",
+            "height": "999",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1292321729",
+            "poseId": "1292321729",
+            "intrinsicId": "2611462435",
+            "resectionId": "4",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images\/1-6.jpg",
+            "width": "426",
+            "height": "1044",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1386020826",
+            "poseId": "1386020826",
+            "intrinsicId": "536276820",
+            "resectionId": "22",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images\/1-24.jpg",
+            "width": "419",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1488872754",
+            "poseId": "1488872754",
+            "intrinsicId": "2058736553",
+            "resectionId": "9",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images\/1-11.jpg",
+            "width": "522",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1513348680",
+            "poseId": "1513348680",
+            "intrinsicId": "3159596823",
+            "resectionId": "17",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images\/1-19.jpg",
+            "width": "615",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1597138438",
+            "poseId": "1597138438",
+            "intrinsicId": "2155848983",
+            "resectionId": "5",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images\/1-7.jpg",
+            "width": "456",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1704613598",
+            "poseId": "1704613598",
+            "intrinsicId": "3730211977",
+            "resectionId": "7",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images\/1-9.jpg",
+            "width": "501",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1838167405",
+            "poseId": "1838167405",
+            "intrinsicId": "493791122",
+            "resectionId": "11",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images\/1-13.jpg",
+            "width": "570",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1863203546",
+            "poseId": "1863203546",
+            "intrinsicId": "3165256785",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images\/1-2.jpg",
+            "width": "422",
+            "height": "1033",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1893867912",
+            "poseId": "1893867912",
+            "intrinsicId": "2908668879",
+            "resectionId": "12",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images\/1-14.jpg",
+            "width": "606",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1955067201",
+            "poseId": "1955067201",
+            "intrinsicId": "419618608",
+            "resectionId": "3",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images\/1-0.jpg",
+            "width": "283",
+            "height": "995",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "2055436659",
+            "poseId": "2055436659",
+            "intrinsicId": "3307312563",
+            "resectionId": "16",
+            "path": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images\/1-18.jpg",
+            "width": "555",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        }
+    ],
+    "intrinsics": [
+        {
+            "intrinsicId": "419618608",
+            "width": "283",
+            "height": "995",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "4219.6384804483614",
+            "principalPoint": [
+                "141.5",
+                "497.5"
+            ],
+            "distortionParams": [
+                "-0.11123980495157718",
+                "-94.713146838480156",
+                "4234.0137476834807"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "493791122",
+            "width": "570",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "3660.6980746014565",
+            "principalPoint": [
+                "285",
+                "540"
+            ],
+            "distortionParams": [
+                "-0.99569407515101083",
+                "50.094968614462218",
+                "-1651.2747232389934"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "536276820",
+            "width": "419",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "3500.9997397433103",
+            "principalPoint": [
+                "209.5",
+                "540"
+            ],
+            "distortionParams": [
+                "0.081490262674347946",
+                "-48.678780208289922",
+                "939.33232316808665"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "554073927",
+            "width": "579",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "3600.5381643317801",
+            "principalPoint": [
+                "289.5",
+                "540"
+            ],
+            "distortionParams": [
+                "-0.48734997596480706",
+                "6.7230381987343595",
+                "-550.84689825204896"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "584156254",
+            "width": "411",
+            "height": "999",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "3879.3954712677378",
+            "principalPoint": [
+                "205.5",
+                "499.5"
+            ],
+            "distortionParams": [
+                "-1.3445775719559137",
+                "40.278369925775969",
+                "-2382.2958976689279"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "674431781",
+            "width": "504",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "3734.8890185897794",
+            "principalPoint": [
+                "252",
+                "540"
+            ],
+            "distortionParams": [
+                "-0.8453805285302739",
+                "17.671207659306742",
+                "-932.09890205213617"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "1059811329",
+            "width": "525",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "3685.3538937600238",
+            "principalPoint": [
+                "262.5",
+                "540"
+            ],
+            "distortionParams": [
+                "-1.0349384322161204",
+                "57.406123995604673",
+                "-1890.215364039555"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "1302641676",
+            "width": "511",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "3491.5505306568698",
+            "principalPoint": [
+                "255.5",
+                "540"
+            ],
+            "distortionParams": [
+                "0.40903763981619795",
+                "-64.337410705493994",
+                "1183.5552457402039"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "1521899294",
+            "width": "588",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "3499.6894326101738",
+            "principalPoint": [
+                "294",
+                "540"
+            ],
+            "distortionParams": [
+                "-0.048466663595148958",
+                "-28.895532764671341",
+                "436.85823438371744"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "1533183868",
+            "width": "387",
+            "height": "1016",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "3865.0033860807225",
+            "principalPoint": [
+                "193.5",
+                "508"
+            ],
+            "distortionParams": [
+                "-1.9080281330157656",
+                "-16.516797000776638",
+                "1815.8639170280744"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "1736385995",
+            "width": "639",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "3582.5069541247194",
+            "principalPoint": [
+                "319.5",
+                "540"
+            ],
+            "distortionParams": [
+                "-0.2776941089692071",
+                "-19.363281697052397",
+                "349.53994198843571"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "1829804955",
+            "width": "438",
+            "height": "1035",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "3936.7952674403846",
+            "principalPoint": [
+                "219",
+                "517.5"
+            ],
+            "distortionParams": [
+                "-0.54399984018363978",
+                "-142.4221991354751",
+                "5962.5359689133984"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "1838307193",
+            "width": "612",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "3566.4596269766494",
+            "principalPoint": [
+                "306",
+                "540"
+            ],
+            "distortionParams": [
+                "-0.13372096923521731",
+                "-34.31881831422767",
+                "753.02086457531038"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "2058736553",
+            "width": "522",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "3709.1177594194442",
+            "principalPoint": [
+                "261",
+                "540"
+            ],
+            "distortionParams": [
+                "-0.73420791293699883",
+                "13.741437126263914",
+                "-581.45136696298516"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "2155848983",
+            "width": "456",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "3852.9044135891377",
+            "principalPoint": [
+                "228",
+                "540"
+            ],
+            "distortionParams": [
+                "-1.9475789609578875",
+                "183.14266752888892",
+                "-8294.4287349298556"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "2611462435",
+            "width": "426",
+            "height": "1044",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "3882.1701411767108",
+            "principalPoint": [
+                "213",
+                "522"
+            ],
+            "distortionParams": [
+                "-0.20161839821321517",
+                "-60.158152669351246",
+                "1854.1151063201135"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "2891749819",
+            "width": "354",
+            "height": "942",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "4083.1871201639383",
+            "principalPoint": [
+                "177",
+                "471"
+            ],
+            "distortionParams": [
+                "0.41335904866801954",
+                "-187.92244519255459",
+                "7927.4525307822187"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "2908668879",
+            "width": "606",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "3632.8283706785146",
+            "principalPoint": [
+                "303",
+                "540"
+            ],
+            "distortionParams": [
+                "-0.63957846012489228",
+                "4.0673215692089455",
+                "-349.13368766268081"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "3159596823",
+            "width": "615",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "3530.036732434341",
+            "principalPoint": [
+                "307.5",
+                "540"
+            ],
+            "distortionParams": [
+                "0.11359300678112605",
+                "-47.697254039738311",
+                "938.91273459015963"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "3165256785",
+            "width": "422",
+            "height": "1033",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "3995.4360518773292",
+            "principalPoint": [
+                "211",
+                "516.5"
+            ],
+            "distortionParams": [
+                "-1.1526230171379592",
+                "-36.172657040217217",
+                "2094.6633336885188"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "3307312563",
+            "width": "555",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "3556.9346001494841",
+            "principalPoint": [
+                "277.5",
+                "540"
+            ],
+            "distortionParams": [
+                "-0.66983216127676481",
+                "3.9957001951905569",
+                "-72.669842865825132"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "3403011922",
+            "width": "660",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "3510.5848441461494",
+            "principalPoint": [
+                "330",
+                "540"
+            ],
+            "distortionParams": [
+                "-0.11843068602969868",
+                "-24.204803108324235",
+                "331.21563440101801"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "3730211977",
+            "width": "501",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "3768.4011924447304",
+            "principalPoint": [
+                "250.5",
+                "540"
+            ],
+            "distortionParams": [
+                "-0.30009394264956923",
+                "-46.835303609707651",
+                "953.85696519247608"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "4123327582",
+            "width": "642",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "3520.1492814618641",
+            "principalPoint": [
+                "321",
+                "540"
+            ],
+            "distortionParams": [
+                "-0.22077137814034417",
+                "-17.604659809110622",
+                "233.7522717235382"
+            ],
+            "locked": "0"
+        },
+        {
+            "intrinsicId": "4287173726",
+            "width": "450",
+            "height": "1080",
+            "serialNumber": "D:\/Automated-3D-Modeling-Project\/Demonstration-for-regular-meeting\/7.27\/1time-20frame\/images",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "3806.7906530009523",
+            "principalPoint": [
+                "225",
+                "540"
+            ],
+            "distortionParams": [
+                "-0.45898818846156947",
+                "-80.757630993032777",
+                "3199.9346395392463"
+            ],
+            "locked": "0"
+        }
+    ],
+    "poses": [
+        {
+            "poseId": "4006058",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.99467495566378727",
+                        "-0.044452754296627955",
+                        "-0.09298217684420243",
+                        "0.045488124426838597",
+                        "0.99892393475980701",
+                        "0.0090445066263089569",
+                        "0.092480068724949377",
+                        "-0.013225929057292054",
+                        "0.99562669293726758"
+                    ],
+                    "center": [
+                        "0.81052295886846148",
+                        "0.096282153851703328",
+                        "-3.2195575335676736"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "113520855",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.99691698174257248",
+                        "-0.052491160775856693",
+                        "0.058319889863429307",
+                        "0.05105312185623917",
+                        "0.99836053149905379",
+                        "0.025881033473545149",
+                        "-0.059582801730124736",
+                        "-0.022823829330985045",
+                        "0.99796240538041248"
+                    ],
+                    "center": [
+                        "-0.39227993561283514",
+                        "0.0072131077345224583",
+                        "-2.6950440273668308"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "263469142",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.7748794858634892",
+                        "-0.062085015598753089",
+                        "0.62905264741994138",
+                        "0.02990143269557629",
+                        "0.99765100049498656",
+                        "0.061631043590905599",
+                        "-0.63140136736523345",
+                        "-0.028947055972149759",
+                        "0.77491572525008079"
+                    ],
+                    "center": [
+                        "-3.9883479498286802",
+                        "-0.29537704564935469",
+                        "-0.05952344111092378"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "395914196",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.79545862817514268",
+                        "-0.059936916340167144",
+                        "0.60303659666835463",
+                        "0.029868508714289095",
+                        "0.99776518192144592",
+                        "0.059770510558705386",
+                        "-0.60527137967105671",
+                        "-0.029533164491731673",
+                        "0.79547114916016903"
+                    ],
+                    "center": [
+                        "-3.7725860161939213",
+                        "-0.27602856201045578",
+                        "-0.25163570725591278"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "503898829",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.75307604432699249",
+                        "-0.063883276622946752",
+                        "0.65482470816908378",
+                        "0.029334512743610985",
+                        "0.99754536770567759",
+                        "0.063582432566230945",
+                        "-0.65727920842128007",
+                        "-0.028673443059047617",
+                        "0.75310150434070633"
+                    ],
+                    "center": [
+                        "-4.2071847680916621",
+                        "-0.31661056912293184",
+                        "0.12454713891132174"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "590445685",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.93081814626938064",
+                        "-0.056068014968194038",
+                        "0.36115641524574948",
+                        "0.043781389588547173",
+                        "0.99815283847348757",
+                        "0.04212007802718061",
+                        "-0.36285089017574379",
+                        "-0.023394203231704633",
+                        "0.93155351040819112"
+                    ],
+                    "center": [
+                        "-2.3386707674886735",
+                        "-0.14404150468324595",
+                        "-1.385027275442654"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "741873699",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.9908454301608981",
+                        "-0.03967948250824109",
+                        "-0.12903825865665927",
+                        "0.041229834948954172",
+                        "0.9991058026469497",
+                        "0.0093646050251092842",
+                        "0.12855129030603588",
+                        "-0.014599102200905843",
+                        "0.99159539731464097"
+                    ],
+                    "center": [
+                        "1.1340858336417692",
+                        "0.12039484916521787",
+                        "-3.4999176170602824"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "865425758",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.89281468294729849",
+                        "-0.054684370371922808",
+                        "0.44709234118998414",
+                        "0.037024252874163971",
+                        "0.99815367453490722",
+                        "0.048150251417542089",
+                        "-0.44889992939721518",
+                        "-0.026435991554865576",
+                        "0.89319090441947868"
+                    ],
+                    "center": [
+                        "-2.8442435080836406",
+                        "-0.18849435532151992",
+                        "-1.0151118206202345"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "949647164",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.9817761471058063",
+                        "-0.037694383036042937",
+                        "-0.18626521538282512",
+                        "0.037619070769181841",
+                        "0.99928438454390101",
+                        "-0.0039400915192772286",
+                        "0.18628044043468825",
+                        "-0.0031388364482831279",
+                        "0.98249160058354168"
+                    ],
+                    "center": [
+                        "1.8165956215575592",
+                        "0.16625079258216252",
+                        "-4.0134565309379759"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "1009773410",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.97192636060124005",
+                        "-0.056369853683264394",
+                        "0.22843289860297211",
+                        "0.0496556984428815",
+                        "0.99815159451649049",
+                        "0.035038635480524494",
+                        "-0.22998578473587883",
+                        "-0.022711978335557159",
+                        "0.97292893104250289"
+                    ],
+                    "center": [
+                        "-1.5443598139530794",
+                        "-0.084542053976225953",
+                        "-1.9776763384445928"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "1034156287",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.98835455158242758",
+                        "-0.055486552910757249",
+                        "0.14169164693933148",
+                        "0.051713151469731107",
+                        "0.99820588743459004",
+                        "0.030178738475807369",
+                        "-0.14311195034436178",
+                        "-0.022499971933410613",
+                        "0.98945071677756069"
+                    ],
+                    "center": [
+                        "-0.97603969174427674",
+                        "-0.038959105953300668",
+                        "-2.3263043971942183"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "1048071823",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.82345107659956329",
+                        "-0.058015938331806648",
+                        "0.56441339047412775",
+                        "0.031087491335157515",
+                        "0.99787766560848268",
+                        "0.057216539236933962",
+                        "-0.56653498773642097",
+                        "-0.029568824448143106",
+                        "0.8235070080401552"
+                    ],
+                    "center": [
+                        "-3.5469191867139065",
+                        "-0.25563253056114288",
+                        "-0.44099166624807573"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "1140932673",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.91246770793029619",
+                        "-0.054180797481037553",
+                        "0.40554546375067552",
+                        "0.039152810790849472",
+                        "0.99820735247190606",
+                        "0.045267415192429064",
+                        "-0.40727108833258424",
+                        "-0.025426809775247302",
+                        "0.91295330546148179"
+                    ],
+                    "center": [
+                        "-2.5948491458886371",
+                        "-0.16561246463656176",
+                        "-1.2004493285424347"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "1199642573",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.99743159802336256",
+                        "-0.045080472851390836",
+                        "-0.055659304990777925",
+                        "0.045657917038380645",
+                        "0.99891526155498767",
+                        "0.0091463022171204052",
+                        "0.055186609574042256",
+                        "-0.011664098766109845",
+                        "0.99840792611221629"
+                    ],
+                    "center": [
+                        "0.51246922412941054",
+                        "0.074686579849508786",
+                        "-3.1657348544580031"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "1292321729",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.99868863795548535",
+                        "-0.047629984153883934",
+                        "-0.018772027810498415",
+                        "0.047939387068201472",
+                        "0.99871573818124937",
+                        "0.016391750260642369",
+                        "0.017967180806752019",
+                        "-0.017270174248769959",
+                        "0.99968941251534449"
+                    ],
+                    "center": [
+                        "0.20573229960117018",
+                        "0.053324244103182823",
+                        "-3.0871752146405469"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "1386020826",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.72913327368326375",
+                        "-0.065483385221917406",
+                        "0.68123167532624673",
+                        "0.02855301722883884",
+                        "0.99745579656781014",
+                        "0.065319668557067848",
+                        "-0.68377583637845551",
+                        "-0.028175524008499566",
+                        "0.72914795853227898"
+                    ],
+                    "center": [
+                        "-4.4318878820664889",
+                        "-0.33720859062127179",
+                        "0.29932562512778649"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "1488872754",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.98103663689489751",
+                        "-0.057279617537138436",
+                        "0.1851652302262716",
+                        "0.052144995029001009",
+                        "0.99811099759276511",
+                        "0.032485935076592622",
+                        "-0.18667623459716151",
+                        "-0.022214452484233631",
+                        "0.98217030169795461"
+                    ],
+                    "center": [
+                        "-1.2618476528994162",
+                        "-0.061677750635344253",
+                        "-2.1594346281632144"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "1513348680",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.84813304872930573",
+                        "-0.05611092791612976",
+                        "0.52680346944712109",
+                        "0.032342527685917125",
+                        "0.99800457976892498",
+                        "0.0542293247527297",
+                        "-0.52879513287852653",
+                        "-0.028955526737433533",
+                        "0.84825543612483789"
+                    ],
+                    "center": [
+                        "-3.3158633015427839",
+                        "-0.23341021937699458",
+                        "-0.62947763409344781"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "1597138438",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.99859645219686277",
+                        "-0.049698710525140598",
+                        "0.018307480219214405",
+                        "0.049254709964766379",
+                        "0.99849896940449978",
+                        "0.023953739675436545",
+                        "-0.019470470105402968",
+                        "-0.023018389828355041",
+                        "0.999545423942096"
+                    ],
+                    "center": [
+                        "-0.096648295683508606",
+                        "0.026208174650772534",
+                        "-2.8984239609920759"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "1704613598",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.993532795359652",
+                        "-0.053073403034861043",
+                        "0.10037827670933161",
+                        "0.05047994124521573",
+                        "0.99832674061322335",
+                        "0.028204512200311761",
+                        "-0.10170722725900805",
+                        "-0.022955018337548108",
+                        "0.99454949955062943"
+                    ],
+                    "center": [
+                        "-0.68639170882812284",
+                        "-0.016534145062367209",
+                        "-2.5187239382670432"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "1838167405",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.96023070185986403",
+                        "-0.055571414483987197",
+                        "0.27362166781518199",
+                        "0.047214243485702509",
+                        "0.99819783634971326",
+                        "0.037039097165345813",
+                        "-0.27518687181220275",
+                        "-0.022647238220145683",
+                        "0.9611239712873747"
+                    ],
+                    "center": [
+                        "-1.8172705838394192",
+                        "-0.10292724412018849",
+                        "-1.7842279744983123"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "1863203546",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.98660312682746032",
+                        "-0.038977828973091024",
+                        "-0.15841401132104049",
+                        "0.040611866535306997",
+                        "0.99914984507111892",
+                        "0.0070896678961360734",
+                        "0.15800299500578047",
+                        "-0.013428177199588828",
+                        "0.98734732370442957"
+                    ],
+                    "center": [
+                        "1.464520513758206",
+                        "0.14338728574218934",
+                        "-3.7187547212930516"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "1893867912",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.94643274119618337",
+                        "-0.055668410478857407",
+                        "0.31806617938195741",
+                        "0.04531204626993126",
+                        "0.99817683663697521",
+                        "0.039872562799912033",
+                        "-0.31970593496948047",
+                        "-0.02332446947218219",
+                        "0.9472296892882589"
+                    ],
+                    "center": [
+                        "-2.0834111665778958",
+                        "-0.12446740078379258",
+                        "-1.5868059365279621"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "1955067201",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.97608605473576759",
+                        "-0.035287909907518004",
+                        "-0.21450122881867839",
+                        "0.036002582909064267",
+                        "0.99935153125727338",
+                        "-0.00057532392527795623",
+                        "0.21438243345535585",
+                        "-0.0071610326142209618",
+                        "0.9767235493411931"
+                    ],
+                    "center": [
+                        "2.1989419235852021",
+                        "0.18406187473870941",
+                        "-4.3747557344846246"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "2055436659",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.87190610288438253",
+                        "-0.055797609612761451",
+                        "0.48648368370837508",
+                        "0.035261931161630997",
+                        "0.99806186528169738",
+                        "0.051274840625509278",
+                        "-0.48840182633127088",
+                        "-0.027552492299624219",
+                        "0.87218376286443111"
+                    ],
+                    "center": [
+                        "-3.0866222092124089",
+                        "-0.21241363109055905",
+                        "-0.82800964358786322"
+                    ]
+                },
+                "locked": "0"
+            }
+        }
+    ]
+}

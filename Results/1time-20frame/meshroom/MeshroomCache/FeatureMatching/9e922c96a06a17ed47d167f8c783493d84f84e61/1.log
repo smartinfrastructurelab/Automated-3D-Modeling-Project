@@ -1,0 +1,73 @@
+Program called with the following parameters:
+ * describerTypes = "sift"
+ * distanceRatio = 0.8
+ * exportDebugFiles = 0
+ * featuresFolders =  = [D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-20frame/meshroom/MeshroomCache/FeatureExtraction/c82ba1776a685a0010c73f42ceff2a1346ee2a9f]
+ * geometricError = 0
+ * geometricEstimator =  Unknown Type "enum aliceVision::robustEstimation::ERobustEstimator"
+ * geometricFilterType = "fundamental_matrix"
+ * guidedMatching = 0
+ * imagePairsList = "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-20frame/meshroom/MeshroomCache/ImageMatching/a44296b4ad7c9e587cba9a476d2eef543a54f300/imageMatches.txt"
+ * input = "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-20frame/meshroom/MeshroomCache/CameraInit/1ff8e70153401bd94fc8996b8b68bacd72f88846/cameraInit.sfm"
+ * matchFilePerImage = 0 (default)
+ * maxIteration = 2048
+ * maxMatches = 0
+ * output = "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-20frame/meshroom/MeshroomCache/FeatureMatching/9e922c96a06a17ed47d167f8c783493d84f84e61"
+ * photometricMatchingMethod = "ANN_L2"
+ * rangeSize = 20
+ * rangeStart = 20
+ * savePutativeMatches = 0
+ * useGridSort = 1 (default)
+ * verboseLevel = "info"
+
+[01:30:26.329469][info] Load pair list from file: D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-20frame/meshroom/MeshroomCache/ImageMatching/a44296b4ad7c9e587cba9a476d2eef543a54f300/imageMatches.txt
+[01:30:26.330471][info] loadPairs: image pair (1838167405, 1863203546) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-20frame/meshroom/MeshroomCache/ImageMatching/a44296b4ad7c9e587cba9a476d2eef543a54f300/imageMatches.txt".
+[01:30:26.330471][info] loadPairs: image pair (1838167405, 1893867912) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-20frame/meshroom/MeshroomCache/ImageMatching/a44296b4ad7c9e587cba9a476d2eef543a54f300/imageMatches.txt".
+[01:30:26.330471][info] loadPairs: image pair (1838167405, 1955067201) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-20frame/meshroom/MeshroomCache/ImageMatching/a44296b4ad7c9e587cba9a476d2eef543a54f300/imageMatches.txt".
+[01:30:26.330471][info] loadPairs: image pair (1838167405, 2055436659) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-20frame/meshroom/MeshroomCache/ImageMatching/a44296b4ad7c9e587cba9a476d2eef543a54f300/imageMatches.txt".
+[01:30:26.330471][info] loadPairs: image pair (1863203546, 1893867912) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-20frame/meshroom/MeshroomCache/ImageMatching/a44296b4ad7c9e587cba9a476d2eef543a54f300/imageMatches.txt".
+[01:30:26.330471][info] loadPairs: image pair (1863203546, 1955067201) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-20frame/meshroom/MeshroomCache/ImageMatching/a44296b4ad7c9e587cba9a476d2eef543a54f300/imageMatches.txt".
+[01:30:26.330471][info] loadPairs: image pair (1863203546, 2055436659) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-20frame/meshroom/MeshroomCache/ImageMatching/a44296b4ad7c9e587cba9a476d2eef543a54f300/imageMatches.txt".
+[01:30:26.330471][info] loadPairs: image pair (1893867912, 1955067201) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-20frame/meshroom/MeshroomCache/ImageMatching/a44296b4ad7c9e587cba9a476d2eef543a54f300/imageMatches.txt".
+[01:30:26.330471][info] loadPairs: image pair (1893867912, 2055436659) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-20frame/meshroom/MeshroomCache/ImageMatching/a44296b4ad7c9e587cba9a476d2eef543a54f300/imageMatches.txt".
+[01:30:26.330471][info] loadPairs: image pair (1955067201, 2055436659) added. File: "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-20frame/meshroom/MeshroomCache/ImageMatching/a44296b4ad7c9e587cba9a476d2eef543a54f300/imageMatches.txt".
+[01:30:26.330471][info] Number of pairs: 10
+[01:30:26.330471][info] Putative matches
+[01:30:26.330471][info] There are 25 views and 10 image pairs.
+Loading regions
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+[01:30:26.363464][info] Supported CUDA-Enabled GPU detected.
+**********[01:30:26.388465][info] sift Regions Matching
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[01:30:26.491463][info] 10 putative image pair matches
+[01:30:26.491463][info] 	- image pair (1838167405, 1863203546) contains 9 putative matches.
+[01:30:26.491463][info] 	- image pair (1838167405, 1893867912) contains 580 putative matches.
+[01:30:26.491463][info] 	- image pair (1838167405, 1955067201) contains 4 putative matches.
+[01:30:26.491463][info] 	- image pair (1838167405, 2055436659) contains 65 putative matches.
+[01:30:26.491463][info] 	- image pair (1863203546, 1893867912) contains 25 putative matches.
+[01:30:26.491463][info] 	- image pair (1863203546, 1955067201) contains 194 putative matches.
+[01:30:26.491463][info] 	- image pair (1863203546, 2055436659) contains 24 putative matches.
+[01:30:26.491463][info] 	- image pair (1893867912, 1955067201) contains 9 putative matches.
+[01:30:26.491463][info] 	- image pair (1893867912, 2055436659) contains 96 putative matches.
+[01:30:26.491463][info] 	- image pair (1955067201, 2055436659) contains 24 putative matches.
+[01:30:26.491463][info] Task (Regions Matching) done in (s): 0.103000
+[01:30:26.491463][info] Geometric filtering: using fundamental_matrix
+Robust Model Estimation
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[01:30:26.565464][info] 3 geometric image pair matches:
+[01:30:26.565464][info] 	- image pair (1838167405, 1893867912) contains 548 geometric matches.
+[01:30:26.565464][info] 	- image pair (1863203546, 1955067201) contains 174 geometric matches.
+[01:30:26.565464][info] 	- image pair (1893867912, 2055436659) contains 81 geometric matches.
+[01:30:26.565464][info] Grid filtering
+[01:30:26.566465][info] After grid filtering:
+[01:30:26.566465][info] 	- image pair (1838167405, 1893867912) contains 548 geometric matches.
+[01:30:26.566465][info] 	- image pair (1863203546, 1955067201) contains 174 geometric matches.
+[01:30:26.566465][info] 	- image pair (1893867912, 2055436659) contains 81 geometric matches.
+[01:30:26.566465][info] Save geometric matches.
+[01:30:26.574464][info] Task done in (s): 0.083000

@@ -1,0 +1,18 @@
+{
+    "status": "SUCCESS",
+    "execMode": "LOCAL",
+    "nodeName": "Texturing_1",
+    "nodeType": "Texturing",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_texturing  --input \"D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/Meshing/d109400433570d226e132275feeb317018009c43/densePointCloud.abc\" --imagesFolder \"D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/PrepareDenseScene/1b7c289090f76d11b5333f361f4d7251face5446\" --inputMesh \"D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/MeshFiltering/6dc6d08fef3507a1710cc996b2af4e454736e167/mesh.obj\" --textureSide 8192 --downscale 1 --outputTextureFileType png --unwrapMethod Basic --useUDIM True --fillHoles False --padding 5 --correctEV False --useScore True --processColorspace sRGB --multiBandDownscale 4 --multiBandNbContrib 1 5 10 0 --bestScoreThreshold 0.1 --angleHardThreshold 90.0 --forceVisibleByAllVertices False --flipNormals False --visibilityRemappingMethod PullPush --verboseLevel info --output \"D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/Texturing/3ab088bd2049f4ab07fda74a73d3538adcffd4b4\" ",
+    "env": null,
+    "startDateTime": "2020-07-28 01:38:10.111304",
+    "endDateTime": "2020-07-28 01:38:20.653353",
+    "elapsedTime": 10.542049169540405,
+    "hostname": "IN-ENGR-KYUKAN1",
+    "sessionUid": "21aafb7a-d094-11ea-b58f-c8f750fb5923",
+    "returnCode": 0,
+    "elapsedTimeStr": "0:00:10.542049"
+}

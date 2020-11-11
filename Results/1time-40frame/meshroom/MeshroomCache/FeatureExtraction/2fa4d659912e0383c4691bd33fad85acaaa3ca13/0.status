@@ -1,0 +1,18 @@
+{
+    "status": "SUCCESS",
+    "execMode": "LOCAL",
+    "nodeName": "FeatureExtraction_1",
+    "nodeType": "FeatureExtraction",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_featureExtraction  --input \"D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/CameraInit/c4e14ab4d37be0e4ad238025a2bf863800206667/cameraInit.sfm\" --describerTypes sift --describerPreset normal --forceCpuExtraction True --verboseLevel info --output \"D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/FeatureExtraction/2fa4d659912e0383c4691bd33fad85acaaa3ca13\" --rangeStart 0 --rangeSize 40",
+    "env": null,
+    "startDateTime": "2020-07-28 01:36:10.201162",
+    "endDateTime": "2020-07-28 01:36:12.373154",
+    "elapsedTime": 2.1719918251037598,
+    "hostname": "IN-ENGR-KYUKAN1",
+    "sessionUid": "21aafb7a-d094-11ea-b58f-c8f750fb5923",
+    "returnCode": 0,
+    "elapsedTimeStr": "0:00:02.171992"
+}

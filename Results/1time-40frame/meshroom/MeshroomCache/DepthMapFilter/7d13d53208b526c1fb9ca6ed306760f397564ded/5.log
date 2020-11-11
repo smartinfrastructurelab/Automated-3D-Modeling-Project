@@ -1,0 +1,67 @@
+Program called with the following parameters:
+ * computeNormalMaps = 0
+ * depthMapsFolder = "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/DepthMap/62279136e0205f6561bd3211d3031e2b2d69128d"
+ * input = "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/StructureFromMotion/824c4768f7ef1555379779a33d8570d739f96deb/sfm.abc"
+ * maxViewAngle = 70
+ * minNumOfConsistentCams = 3
+ * minNumOfConsistentCamsWithLowSimilarity = 4
+ * minViewAngle = 2
+ * nNearestCams = 10
+ * output = "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-40frame/meshroom/MeshroomCache/DepthMapFilter/7d13d53208b526c1fb9ca6ed306760f397564ded"
+ * pixSizeBall = 0
+ * pixSizeBallWithLowSimilarity = 0
+ * rangeSize = 10
+ * rangeStart = 50
+ * verboseLevel = "info"
+
+[01:37:59.528272][info] Found 45 image dimension(s): 
+[01:37:59.528272][info] 	- [153x1080]
+[01:37:59.528272][info] 	- [247x996]
+[01:37:59.528272][info] 	- [283x995]
+[01:37:59.528272][info] 	- [320x1030]
+[01:37:59.528272][info] 	- [351x972]
+[01:37:59.528272][info] 	- [354x942]
+[01:37:59.528272][info] 	- [387x1016]
+[01:37:59.528272][info] 	- [390x976]
+[01:37:59.528272][info] 	- [411x999]
+[01:37:59.528272][info] 	- [414x1057]
+[01:37:59.528272][info] 	- [419x1080]
+[01:37:59.528272][info] 	- [422x1033]
+[01:37:59.528272][info] 	- [426x1044]
+[01:37:59.528272][info] 	- [429x1058]
+[01:37:59.528272][info] 	- [438x1035]
+[01:37:59.528272][info] 	- [444x1051]
+[01:37:59.528272][info] 	- [450x1080]
+[01:37:59.528272][info] 	- [454x1080]
+[01:37:59.528272][info] 	- [456x1080]
+[01:37:59.528272][info] 	- [462x1080]
+[01:37:59.528272][info] 	- [468x1080]
+[01:37:59.528272][info] 	- [477x1032]
+[01:37:59.528272][info] 	- [501x1080]
+[01:37:59.528272][info] 	- [504x1080]
+[01:37:59.528272][info] 	- [511x1080]
+[01:37:59.528272][info] 	- [513x1080]
+[01:37:59.528272][info] 	- [519x1080]
+[01:37:59.528272][info] 	- [522x1080]
+[01:37:59.528272][info] 	- [525x1080]
+[01:37:59.528272][info] 	- [546x1080]
+[01:37:59.528272][info] 	- [555x1080]
+[01:37:59.528272][info] 	- [556x1080]
+[01:37:59.528272][info] 	- [570x1080]
+[01:37:59.528272][info] 	- [579x1080]
+[01:37:59.528272][info] 	- [582x1080]
+[01:37:59.529270][info] 	- [588x1080]
+[01:37:59.529270][info] 	- [594x1080]
+[01:37:59.529270][info] 	- [597x1080]
+[01:37:59.529270][info] 	- [606x1080]
+[01:37:59.529270][info] 	- [612x1080]
+[01:37:59.529270][info] 	- [615x1080]
+[01:37:59.529270][info] 	- [621x1080]
+[01:37:59.529270][info] 	- [639x1080]
+[01:37:59.529270][info] 	- [642x1080]
+[01:37:59.529270][info] 	- [660x1080]
+[01:37:59.562273][info] Overall maximum dimension: [660x1080]
+[01:37:59.562273][info] Filter depth maps.
+[01:37:59.562273][info] Precomputing groups.
+[01:38:00.212272][info] Filtering depth maps.
+[01:38:00.278266][info] Task done in (s): 0.758000

@@ -1,0 +1,11 @@
+Program called with the following parameters:
+ * input = "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-60frame/meshroom/MeshroomCache/StructureFromMotion/1525f89206b8cfb498d0e7f076ac99d51dcc32ff/sfm.abc"
+ * output = "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-60frame/meshroom/MeshroomCache/ExportColoredPointCloud/2a18087c27055a85dba0130b7eaf2d98fee6c984/pointCloud.abc"
+ * verboseLevel = "info"
+
+
+Compute scene structure color
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[02:42:56.301726][info] Saving output result to D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-60frame/meshroom/MeshroomCache/ExportColoredPointCloud/2a18087c27055a85dba0130b7eaf2d98fee6c984/pointCloud.abc...

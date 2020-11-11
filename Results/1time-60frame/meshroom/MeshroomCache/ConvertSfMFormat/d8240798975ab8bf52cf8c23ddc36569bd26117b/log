@@ -1,0 +1,12 @@
+Program called with the following parameters:
+ * describerTypes = "sift"
+ * extrinsics = 1
+ * imageWhiteList =  = [] (default)
+ * input = "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-60frame/meshroom/MeshroomCache/Meshing/77dcf251d560531d3a8059065c988ac87f0a5966/densePointCloud.abc"
+ * intrinsics = 1
+ * observations = 1
+ * output = "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-60frame/meshroom/MeshroomCache/ConvertSfMFormat/d8240798975ab8bf52cf8c23ddc36569bd26117b/sfm.ply"
+ * structure = 1
+ * verboseLevel = "info"
+ * views = 1
+

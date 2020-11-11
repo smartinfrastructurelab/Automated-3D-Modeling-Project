@@ -1,0 +1,12 @@
+Program called with the following parameters:
+ * describerTypes = "sift"
+ * extrinsics = 1
+ * imageWhiteList =  = [] (default)
+ * input = "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-60frame/meshroom/MeshroomCache/ExportColoredPointCloud/2a18087c27055a85dba0130b7eaf2d98fee6c984/pointCloud.abc"
+ * intrinsics = 1
+ * observations = 1
+ * output = "D:/Automated-3D-Modeling-Project/Demonstration-for-regular-meeting/7.27/1time-60frame/meshroom/MeshroomCache/ConvertSfMFormat/ebfa3fd22b0ba5d3d2f509f77b3b4cf86ea21c7e/sfm.ply"
+ * structure = 1
+ * verboseLevel = "info"
+ * views = 1
+
