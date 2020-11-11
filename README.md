@@ -17,7 +17,7 @@ http://ccwu.me/vsfm/doc.html#usage
 - Website: http://ccwu.me/vsfm/index.html
 - Manual: http://ccwu.me/vsfm/doc.html#usage
 2.	**OpenMVG**  
-`OpenMVG` is a general framework to make multiple view models, especially make 3D reconstruction. When results from OpenMVG are output, and then a complete three-dimensional reconstruction can be achieved through dense matching, surface reconstruction, and texture mapping.
+`OpenMVG` is a general framework to make multiple view models, especially make 3D reconstruction. When results from `OpenMVG` are output, and then a complete three-dimensional reconstruction can be achieved through dense matching, surface reconstruction, and texture mapping.
 - Website: https://github.com/openMVG/openMVG
 - Manual: https://openmvg.readthedocs.io/en/latest/openMVG/openMVG/
 - Download: https://github.com/openMVG/openMVG/releases/tag/v1.6
